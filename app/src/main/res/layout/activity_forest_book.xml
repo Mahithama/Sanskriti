@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Seniorkg.Unit4.Forest_book">
+
+    <ViewFlipper
+        android:id="@+id/view_flipper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@drawable/forest1_3j"
+            android:layout_height="match_parent">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@drawable/forest2_3j"
+            android:layout_height="match_parent">
+            <TextView
+                android:background="@color/coloryellow"
+                android:fontFamily="@font/primer_print_bold"
+                android:layout_gravity="bottom"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="27sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="This is a fox"
+                tools:ignore="RtlCompat" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@drawable/forest3_3j"
+            android:layout_height="match_parent">
+            <TextView
+                android:background="@color/coloryellow"
+                android:fontFamily="@font/primer_print_bold"
+                android:layout_gravity="bottom"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="27sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="This is a mushroom."
+                tools:ignore="RtlCompat" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@drawable/forest4_3j"
+            android:layout_height="match_parent">
+            <TextView
+                android:background="@color/coloryellow"
+                android:fontFamily="@font/primer_print_bold"
+                android:layout_gravity="bottom"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="27sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="This is a stream."
+                tools:ignore="RtlCompat" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@drawable/forest5_3j"
+            android:layout_height="match_parent">
+            <TextView
+                android:background="@color/coloryellow"
+                android:fontFamily="@font/primer_print_bold"
+                android:layout_gravity="bottom"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="27sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="This is a rabbit."
+                tools:ignore="RtlCompat" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@drawable/forest6_3j"
+            android:layout_height="match_parent">
+            <TextView
+                android:background="@color/coloryellow"
+                android:fontFamily="@font/primer_print_bold"
+                android:layout_gravity="bottom"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="27sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="This is a squirrel."
+                tools:ignore="RtlCompat" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@drawable/forest7_3j"
+            android:layout_height="match_parent">
+            <TextView
+                android:background="@color/coloryellow"
+                android:fontFamily="@font/primer_print_bold"
+                android:layout_gravity="bottom"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="27sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="This is a tree."
+                tools:ignore="RtlCompat" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@drawable/forest8_3j"
+            android:layout_height="match_parent">
+        <TextView
+            android:background="@color/coloryellow"
+            android:fontFamily="@font/primer_print_bold"
+            android:layout_gravity="bottom"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="27sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="This is a deer."
+            tools:ignore="RtlCompat" />
+        </LinearLayout>
+
+    </ViewFlipper>
+
+    <ImageButton
+        android:layout_width="48dp"
+        android:layout_height="58dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="118dp"
+        android:background="@drawable/previous_stories"
+        android:onClick="previousView"
+        android:text="Previous"
+        tools:ignore="OnClick" />
+
+    <ImageButton
+        android:layout_width="48dp"
+        android:layout_alignParentRight="true"
+        android:layout_height="58dp"
+       android:layout_centerVertical="true"
+        android:layout_margin="16dp"
+        android:background="@drawable/next_stories"
+        android:onClick="nextView"
+        android:text="Next"
+        tools:ignore="OnClick" />
+</RelativeLayout>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Nurseryclass.Unit4.Nur_d_4">
+    <ViewFlipper
+        android:id="@+id/viewflipper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@drawable/numeral_onebg"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_marginTop="70dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:textColor="#FF5722"
+                android:layout_height="wrap_content"
+                android:text="Alphabet 'D'."
+                android:textSize="30sp" />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:textColor="#151515"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tap on the pictures to know their names. "
+                android:textSize="22sp" />
+
+            <Button
+                android:layout_marginTop="100dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="nextView"
+                android:text="Next"
+                tools:ignore="OnClick" />
+        </LinearLayout>
+
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/d_bg"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/dog"
+                android:layout_marginLeft="150dp"
+                android:layout_width="235dp"
+                android:layout_height="179dp"
+                app:srcCompat="@drawable/d4" />
+
+            <ImageView
+                android:id="@+id/fly"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="380dp"
+                android:layout_height="150dp"
+                app:srcCompat="@drawable/d5" />
+
+        </FrameLayout>
+
+
+        <FrameLayout
+            android:layout_gravity="bottom"
+            android:layout_width="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/frame1"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/dino"
+                android:layout_width="172dp"
+                android:layout_height="155dp"
+                app:srcCompat="@drawable/d1" />
+
+            <ImageView
+                android:id="@+id/donut"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="280dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/d2" />
+
+            <ImageView
+                android:id="@+id/dolphin"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="445dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/d3" />
+
+        </FrameLayout>
+    </LinearLayout>
+    </ViewFlipper>
+</RelativeLayout>

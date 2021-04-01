@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Juniorclass.unit7.Missing_numbers">
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/mising_n_bg" />
+<FrameLayout
+    android:id="@+id/onea"
+    android:layout_width="wrap_content"
+    android:layout_marginLeft="235dp"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:textSize="55dp"
+        android:maxLength="2"
+        android:imeOptions="actionDone"
+        android:textAlignment="center"
+        android:background="@null"
+        android:id="@+id/a3"
+        android:layout_marginTop="40dp"
+        android:layout_width="81dp"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/a5"
+        android:maxLength="2"
+        android:textSize="55dp"
+        android:imeOptions="actionDone"
+        android:textAlignment="center"
+        android:background="@null"
+        android:layout_marginLeft="178dp"
+        android:layout_marginTop="40dp"
+        android:layout_width="81dp"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal" />
+</FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/oneb"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/onea"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="147dp"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/a8"
+            android:maxLength="2"
+            android:textSize="55dp"
+            android:imeOptions="actionDone"
+            android:textAlignment="center"
+            android:background="@null"
+            android:layout_width="81dp"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/a10"
+            android:maxLength="2"
+            android:textSize="55dp"
+            android:imeOptions="actionDone"
+            android:textAlignment="center"
+            android:background="@null"
+            android:layout_marginLeft="178dp"
+            android:layout_width="81dp"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/onec"
+        android:layout_below="@+id/oneb"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="147dp"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/a14"
+            android:maxLength="2"
+            android:textSize="55dp"
+            android:imeOptions="actionDone"
+            android:textAlignment="center"
+            android:background="@null"
+            android:layout_width="81dp"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/a16"
+            android:maxLength="2"
+            android:textSize="55dp"
+            android:imeOptions="actionDone"
+            android:textAlignment="center"
+            android:background="@null"
+            android:layout_marginLeft="178dp"
+            android:layout_width="81dp"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/a18"
+            android:textSize="55dp"
+            android:imeOptions="actionDone"
+            android:textAlignment="center"
+            android:background="@null"
+            android:layout_marginLeft="348dp"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/oned"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/onec"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="147dp"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/a20"
+            android:maxLength="2"
+            android:textSize="55dp"
+            android:imeOptions="actionDone"
+            android:textAlignment="center"
+            android:background="@null"
+            android:layout_marginTop="4dp"
+            android:layout_width="81dp"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/a22"
+            android:maxLength="2"
+            android:textSize="55dp"
+            android:imeOptions="actionDone"
+            android:textAlignment="center"
+            android:background="@null"
+            android:layout_marginLeft="175dp"
+            android:layout_width="81dp"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/a23"
+            android:maxLength="2"
+            android:textSize="55dp"
+            android:imeOptions="actionDone"
+            android:textAlignment="center"
+            android:background="@null"
+            android:layout_marginLeft="265dp"
+            android:layout_width="79dp"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal" />
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="61dp"
+        android:textSize="10sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
+        android:onClick="nextView"
+        android:text="Next"
+        tools:ignore="OnClick" />
+
+    <TextView
+        android:textColor="@color/coloryellow"
+        android:layout_alignParentTop="true"
+        android:textSize="22sp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Write the missing numbers in the missing place"/>
+</RelativeLayout>

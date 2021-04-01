@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/g_bg"
+    tools:context=".Nurseryclass.Unit5.G_alphabet">
+
+    <ViewFlipper
+        android:id="@+id/viewflipper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@drawable/numeral_onebg"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_marginTop="70dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:textColor="#FF5722"
+                android:layout_height="wrap_content"
+                android:text="Alphabet 'G'."
+                android:textSize="30sp" />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:textColor="#151515"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tap on all the ' G g ' letter words. "
+                android:textSize="22sp" />
+
+            <Button
+                android:layout_marginTop="100dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="nextView"
+                android:text="Next"
+                tools:ignore="OnClick" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/g_bg"
+            android:layout_height="match_parent">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <ImageView
+                    android:id="@+id/garlic"
+                    android:layout_width="148dp"
+                    android:layout_height="137dp"
+                    android:layout_marginLeft="220dp"
+                    app:srcCompat="@drawable/g_garlic" />
+
+
+                <ImageView
+                    android:id="@+id/grapes"
+                    android:layout_width="172dp"
+                    android:layout_height="160dp"
+                    android:layout_marginLeft="250dp"
+                    android:layout_marginTop="170dp"
+                    app:srcCompat="@drawable/g_grapes" />
+
+                <ImageView
+                    android:id="@+id/grass"
+                    android:layout_width="210dp"
+                    android:layout_height="147dp"
+                    android:layout_marginLeft="390dp"
+                    app:srcCompat="@drawable/g_grass" />
+
+
+                <ImageView
+                    android:id="@+id/giraf"
+                    android:layout_width="137dp"
+                    android:layout_height="202dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="130dp"
+                    app:srcCompat="@drawable/g_giraf" />
+
+                <ImageView
+                    android:id="@+id/glass"
+                    android:layout_width="130dp"
+                    android:layout_height="149dp"
+                    android:layout_marginLeft="500dp"
+                    android:layout_marginTop="160dp"
+                    app:srcCompat="@drawable/g_glass" />
+
+            </FrameLayout>
+        </LinearLayout>
+    </ViewFlipper>
+</RelativeLayout>

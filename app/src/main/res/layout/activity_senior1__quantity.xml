@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Unit1.Seniorkg.Senior1_Quantity">
+    <ViewFlipper
+        android:id="@+id/viewflipper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/numeral_onebg"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_marginTop="70dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:textColor="#FF5722"
+            android:layout_height="wrap_content"
+            android:text="Quantity."
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textColor="#151515"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Count the objects given and tap on the correct number. "
+            android:textSize="22sp" />
+
+        <Button
+            android:layout_marginTop="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="nextView"
+            android:text="Next"
+            tools:ignore="OnClick" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:layout_height="match_parent">
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+     android:layout_gravity="center_horizontal">
+
+
+        <ImageView
+            android:id="@+id/bb"
+            android:layout_width="190dp"
+            android:layout_height="165dp"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@drawable/many_lion"
+            tools:layout_editor_absoluteX="57dp"
+            tools:layout_editor_absoluteY="62dp" />
+
+        <TextView
+            android:id="@+id/lion_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="135dp"
+            android:fontFamily="@font/primer_print_bold"
+            android:text="   1   "
+            android:textColor="#000"
+            android:textSize="30dp" />
+
+
+        <TextView
+            android:id="@+id/lion_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="75dp"
+            android:layout_marginTop="135dp"
+            android:fontFamily="@font/primer_print_bold"
+            android:text="  3  "
+            android:textColor="#000"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/lion_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="135dp"
+            android:fontFamily="@font/primer_print_bold"
+            android:text="  2  "
+            android:textColor="#000"
+            android:textSize="30dp" />
+
+
+        <ImageView
+            android:id="@+id/dd"
+            android:layout_width="185dp"
+            android:layout_height="159dp"
+            android:layout_marginLeft="210dp"
+            android:layout_marginTop="13dp"
+            app:srcCompat="@drawable/many_emo"
+            tools:layout_editor_absoluteX="57dp"
+            tools:layout_editor_absoluteY="62dp" />
+        <TextView
+            android:id="@+id/emo_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="210dp"
+            android:layout_marginTop="135dp"
+            android:fontFamily="@font/primer_print_bold"
+            android:text="   1   "
+            android:textColor="#000"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/emo_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="135dp"
+            android:fontFamily="@font/primer_print_bold"
+            android:text="  3  "
+            android:textColor="#000"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/emo_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="345dp"
+            android:layout_marginTop="135dp"
+            android:fontFamily="@font/primer_print_bold"
+            android:text="   2  "
+            android:textColor="#000"
+            android:textSize="30dp" />
+
+
+
+        <ImageView
+            android:id="@+id/ffl"
+            android:layout_width="190dp"
+            android:layout_height="165dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="420dp"
+            app:srcCompat="@drawable/many_hen"
+            tools:layout_editor_absoluteX="57dp"
+            tools:layout_editor_absoluteY="62dp" />
+
+        <TextView
+            android:id="@+id/hen_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="425dp"
+            android:layout_marginTop="135dp"
+            android:fontFamily="@font/primer_print_bold"
+            android:text="  2  "
+            android:textColor="#000"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/hen_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="495dp"
+            android:layout_marginTop="135dp"
+            android:fontFamily="@font/primer_print_bold"
+            android:text="  4  "
+            android:textColor="#000"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/hen_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="555dp"
+            android:layout_marginTop="135dp"
+            android:fontFamily="@font/primer_print_bold"
+            android:text="   5  "
+            android:textColor="#000"
+            android:textSize="30dp" />
+
+
+
+    </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="606dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal">
+
+
+            <ImageView
+                android:id="@+id/bbv"
+                android:layout_width="190dp"
+                android:layout_height="165dp"
+                app:srcCompat="@drawable/many_dog"
+                tools:layout_editor_absoluteX="57dp"
+                tools:layout_editor_absoluteY="62dp" />
+
+            <TextView
+                android:id="@+id/dog_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="125dp"
+                android:fontFamily="@font/primer_print_bold"
+                android:text="   1   "
+                android:textColor="#000"
+                android:textSize="30dp" />
+
+
+            <TextView
+                android:id="@+id/dog_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="75dp"
+                android:layout_marginTop="125dp"
+                android:fontFamily="@font/primer_print_bold"
+                android:text="  3  "
+                android:textColor="#000"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/dog_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="140dp"
+                android:layout_marginTop="125dp"
+                android:fontFamily="@font/primer_print_bold"
+                android:text="  2  "
+                android:textColor="#000"
+                android:textSize="30dp" />
+
+
+            <ImageView
+                android:id="@+id/ddv"
+                android:layout_width="190dp"
+                android:layout_height="165dp"
+                android:layout_marginLeft="210dp"
+                app:srcCompat="@drawable/many_fruits"
+                tools:layout_editor_absoluteX="57dp"
+                tools:layout_editor_absoluteY="62dp" />
+
+            <TextView
+                android:id="@+id/fruit_7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="210dp"
+                android:layout_marginTop="125dp"
+                android:fontFamily="@font/primer_print_bold"
+                android:text="   7   "
+                android:textColor="#000"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/fruit_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="280dp"
+                android:layout_marginTop="125dp"
+                android:fontFamily="@font/primer_print_bold"
+                android:text="  3  "
+                android:textColor="#000"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/fruit_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="345dp"
+                android:layout_marginTop="125dp"
+                android:fontFamily="@font/primer_print_bold"
+                android:text="   2  "
+                android:textColor="#000"
+                android:textSize="30dp" />
+
+
+            <ImageView
+                android:id="@+id/ff"
+                android:layout_width="190dp"
+                android:layout_height="165dp"
+                android:layout_marginLeft="420dp"
+                app:srcCompat="@drawable/many_candy"
+                tools:layout_editor_absoluteX="57dp"
+                tools:layout_editor_absoluteY="62dp" />
+
+            <TextView
+                android:id="@+id/candy_9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="425dp"
+                android:layout_marginTop="125dp"
+                android:fontFamily="@font/primer_print_bold"
+                android:text="  9  "
+                android:textColor="#000"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/candy_8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="495dp"
+                android:layout_marginTop="125dp"
+                android:fontFamily="@font/primer_print_bold"
+                android:text="  8  "
+                android:textColor="#000"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/candy_7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="555dp"
+                android:layout_marginTop="125dp"
+                android:fontFamily="@font/primer_print_bold"
+                android:text="   7  "
+                android:textColor="#000"
+                android:textSize="30dp" />
+        </FrameLayout>
+    </LinearLayout>
+    </ViewFlipper>
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Juniorclass.unit1.Junior1_classroomrules1">
+
+    <ViewFlipper
+        android:id="@+id/viewflipper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/numeral_onebg"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_marginTop="70dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:textColor="#FF5722"
+            android:layout_height="wrap_content"
+            android:text="Classroom rules."
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textColor="#151515"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tap on the pictures given below to know the classroom rules. "
+            android:textSize="22sp" />
+
+        <Button
+            android:layout_marginTop="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="nextView"
+            android:text="Next"
+            tools:ignore="OnClick" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/doodle_bgg"
+        android:layout_height="match_parent">
+
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="40dp"
+        tools:ignore="UselessParent">
+
+        <ImageView
+            android:id="@+id/class_one"
+            android:layout_width="287dp"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/class_one"
+            tools:layout_editor_absoluteX="59dp"
+            tools:layout_editor_absoluteY="116dp" />
+
+        <TextView
+            android:id="@+id/class_onet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="255dp"
+            android:text="We raise our hand to talk."
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/class_two"
+            android:layout_width="287dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="300dp"
+            app:srcCompat="@drawable/class_two"
+            tools:layout_editor_absoluteX="59dp"
+            tools:layout_editor_absoluteY="116dp" />
+
+        <TextView
+            android:id="@+id/class_twot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="345dp"
+            android:layout_marginTop="255dp"
+            android:text="We help each other."
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:visibility="invisible" />
+    </FrameLayout>
+    </LinearLayout>
+    </ViewFlipper>
+</RelativeLayout>

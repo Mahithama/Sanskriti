@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Nurseryclass.Unit6.J_alphabet">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/j_bg"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/jelly"
+            android:layout_width="165dp"
+            android:layout_height="194dp"
+            android:layout_marginTop="140dp"
+            app:srcCompat="@drawable/j_jelly" />
+
+        <ImageView
+            android:id="@+id/jam"
+            android:layout_width="182dp"
+            android:layout_height="155dp"
+            android:layout_marginLeft="10dp"
+            app:srcCompat="@drawable/j_jam" />
+
+        <ImageView
+            android:id="@+id/jigsaw"
+            android:layout_width="153dp"
+            android:layout_height="165dp"
+            android:layout_marginLeft="-140dp"
+            android:layout_marginTop="180dp"
+            app:srcCompat="@drawable/j_jigsaw" />
+
+        <ImageView
+            android:id="@+id/jar"
+            android:layout_width="157dp"
+            android:layout_height="159dp"
+            android:layout_marginLeft="50dp"
+            app:srcCompat="@drawable/j_jar" />
+
+        <ImageView
+            android:id="@+id/jet"
+            android:layout_width="212dp"
+            android:layout_marginLeft="-160dp"
+            android:layout_marginTop="180dp"
+            android:layout_height="172dp"
+            app:srcCompat="@drawable/j_jet" />
+
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>

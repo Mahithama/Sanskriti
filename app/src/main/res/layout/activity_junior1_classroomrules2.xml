@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/doodle_bgg"
+    tools:context=".Juniorclass.unit1.Junior1_classroomrules2">
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_height="wrap_content"
+        tools:ignore="UselessParent">
+
+        <ImageView
+            android:id="@+id/class_five"
+            android:layout_width="287dp"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/class_five"
+            tools:layout_editor_absoluteX="59dp"
+            tools:layout_editor_absoluteY="116dp" />
+
+        <TextView
+            android:id="@+id/class_fivet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="260dp"
+            android:text="We sit on our chair"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/class_six"
+            android:layout_width="287dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="300dp"
+            app:srcCompat="@drawable/class_six"
+            tools:layout_editor_absoluteX="59dp"
+            tools:layout_editor_absoluteY="116dp" />
+
+        <TextView
+            android:id="@+id/class_sixt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="340dp"
+            android:layout_marginTop="260dp"
+            android:text="We listen to our teacher"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:visibility="invisible" />
+    </FrameLayout>
+
+</RelativeLayout>

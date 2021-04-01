@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/coloryellow"
+    tools:context=".Unit1.Seniorkg.Senior1_senses_action_two">
+    <FrameLayout
+        android:id="@+id/layout_1"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       >
+
+
+        <ImageView
+            android:id="@+id/feet"
+            android:layout_width="182dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="121dp"
+            app:srcCompat="@drawable/feet_bdp" />
+
+        <ImageView
+            android:id="@+id/kick_c"
+            android:layout_width="182dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            app:srcCompat="@drawable/dummy" />
+
+        <ImageView
+            android:id="@+id/kick_c_n"
+            android:layout_width="94dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="20dp"
+            android:visibility="invisible"
+            android:layout_marginLeft="110dp"
+            app:srcCompat="@drawable/kick_bdp" />
+        <TextView
+            android:id="@+id/feett"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="85dp"
+            android:layout_marginLeft="40dp"
+            android:fontFamily="@font/primer_print_bold"
+            android:text="Feet"
+            android:textColor="#000"
+            android:textSize="25dp" />
+
+        <ImageView
+            android:id="@+id/leg"
+            android:layout_width="182dp"
+            android:layout_height="121dp"
+            android:layout_marginLeft="235dp"
+            app:srcCompat="@drawable/leg_bdp" />
+
+        <ImageView
+            android:id="@+id/run_c"
+            android:layout_width="182dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="235dp"
+            app:srcCompat="@drawable/dummy" />
+
+        <ImageView
+            android:id="@+id/run_c_n"
+            android:layout_width="94dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="320dp"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/run_bdp" />
+
+        <TextView
+            android:id="@+id/legg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="85dp"
+            android:layout_marginLeft="260dp"
+            android:fontFamily="@font/primer_print_bold"
+            android:text="Leg"
+            android:textColor="#000"
+            android:textSize="25dp" />
+
+        <ImageView
+            android:id="@+id/tounge"
+            android:layout_width="182dp"
+            android:layout_height="121dp"
+            android:layout_marginLeft="450dp"
+            app:srcCompat="@drawable/tounge_bdp" />
+
+        <ImageView
+            android:id="@+id/taste_c"
+            android:layout_width="182dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="450dp"
+            app:srcCompat="@drawable/dummy" />
+
+        <ImageView
+            android:id="@+id/taste_c_n"
+            android:layout_width="94dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="530dp"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/taste_bdp" />
+
+        <TextView
+            android:id="@+id/toungee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="85dp"
+            android:layout_marginLeft="455dp"
+            android:fontFamily="@font/primer_print_bold"
+            android:text="Tounge"
+            android:textColor="#000"
+            android:textSize="25dp" />
+
+
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:id="@+id/layout_2"
+        android:layout_marginTop="5dp"
+       android:layout_below="@+id/layout_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/teeth"
+            android:layout_width="182dp"
+            android:layout_marginLeft="20dp"
+            android:layout_height="121dp"
+            app:srcCompat="@drawable/teeth_bdp" />
+
+        <ImageView
+            android:id="@+id/bite_c"
+            android:layout_width="182dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            app:srcCompat="@drawable/dummy" />
+
+        <ImageView
+            android:id="@+id/bite_c_n"
+            android:layout_width="94dp"
+            android:layout_height="90dp"
+            android:visibility="invisible"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="110dp"
+            app:srcCompat="@drawable/bite_bdp" />
+
+        <TextView
+            android:id="@+id/teethh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:layout_marginLeft="32dp"
+            android:fontFamily="@font/primer_print_bold"
+            android:text="Teeth"
+            android:textColor="#000"
+            android:textSize="25dp" />
+
+        <ImageView
+            android:id="@+id/knee"
+            android:layout_width="182dp"
+            android:layout_height="121dp"
+            android:layout_marginLeft="235dp"
+            app:srcCompat="@drawable/knee_bdp" />
+
+        <ImageView
+            android:id="@+id/ride_c"
+            android:layout_width="182dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="235dp"
+            app:srcCompat="@drawable/dummy" />
+
+        <ImageView
+            android:id="@+id/ride_c_n"
+            android:layout_width="94dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="20dp"
+            android:visibility="invisible"
+            android:layout_marginLeft="320dp"
+            app:srcCompat="@drawable/ride_bdp" />
+
+
+        <TextView
+            android:id="@+id/kneee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="85dp"
+            android:layout_marginLeft="246dp"
+            android:fontFamily="@font/primer_print_bold"
+            android:text="Knee"
+            android:textColor="#000"
+            android:textSize="25dp" />
+
+        <ImageView
+            android:id="@+id/hand"
+            android:layout_width="182dp"
+            android:layout_height="121dp"
+            android:layout_marginLeft="450dp"
+            app:srcCompat="@drawable/hand_bdp" />
+
+        <ImageView
+            android:id="@+id/write_c"
+            android:layout_width="182dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="450dp"
+            app:srcCompat="@drawable/dummy" />
+
+        <ImageView
+            android:id="@+id/write_c_n"
+            android:layout_width="94dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="20dp"
+            android:visibility="invisible"
+            android:layout_marginLeft="540dp"
+            app:srcCompat="@drawable/write_bdp" />
+
+
+        <TextView
+            android:id="@+id/handd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="85dp"
+            android:layout_marginLeft="470dp"
+            android:fontFamily="@font/primer_print_bold"
+            android:text="Hand"
+            android:textColor="#000"
+            android:textSize="25dp" />
+
+
+    </FrameLayout>
+    <FrameLayout
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+       android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout_2">
+
+    <ImageView
+        android:id="@+id/drag_run"
+        android:layout_width="94dp"
+        android:layout_height="90dp"
+        app:srcCompat="@drawable/run_bdp" />
+
+    <ImageView
+        android:layout_marginLeft="100dp"
+        android:id="@+id/drag_kick"
+        android:layout_width="94dp"
+        android:layout_height="90dp"
+        app:srcCompat="@drawable/kick_bdp" />
+
+    <ImageView
+        android:layout_marginLeft="200dp"
+        android:id="@+id/drag_taste"
+        android:layout_width="94dp"
+        android:layout_height="90dp"
+        app:srcCompat="@drawable/taste_bdp" />
+
+    <ImageView
+        android:layout_marginLeft="300dp"
+        android:id="@+id/drag_bite"
+        android:layout_width="94dp"
+        android:layout_height="90dp"
+        app:srcCompat="@drawable/bite_bdp" />
+
+    <ImageView
+        android:layout_marginLeft="400dp"
+        android:id="@+id/drag_write"
+        android:layout_width="94dp"
+        android:layout_height="90dp"
+        app:srcCompat="@drawable/write_bdp" />
+
+    <ImageView
+        android:layout_marginLeft="500dp"
+        android:id="@+id/drag_ride"
+        android:layout_width="94dp"
+        android:layout_height="90dp"
+        app:srcCompat="@drawable/ride_bdp" />
+    </FrameLayout>
+</RelativeLayout>

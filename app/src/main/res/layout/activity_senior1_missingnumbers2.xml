@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Unit1.Seniorkg.Senior1_missingnumbers2">
+    <FrameLayout
+        android:id="@+id/ka"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="148dp"
+        android:layout_marginBottom="220dp">
+
+
+        <ImageView
+            android:id="@+id/ome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/missingnum_onee"
+            />
+
+        <ImageView
+            android:id="@+id/onet_c"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="40dp"
+            app:srcCompat="@drawable/dummy" />
+
+        <TextView
+            android:id="@+id/onet_c_n"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="60dp"
+            android:fontFamily="@font/primer_print_bold"
+            android:text="   11   "
+            android:textColor="#000"
+            android:textSize="50dp"
+            android:visibility="invisible" />
+
+
+        <ImageView
+            android:id="@+id/threet_c"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="40dp"
+            app:srcCompat="@drawable/dummy" />
+
+        <TextView
+            android:id="@+id/threet_c_n"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="60dp"
+            android:fontFamily="@font/primer_print_bold"
+            android:text="  13  "
+            android:textColor="#000"
+            android:textSize="50dp"
+            android:visibility="invisible" />
+
+
+        <ImageView
+            android:id="@+id/fivet_c"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:layout_marginLeft="530dp"
+            android:layout_marginTop="40dp"
+            app:srcCompat="@drawable/dummy" />
+
+        <TextView
+            android:id="@+id/fivet_c_n"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="535dp"
+            android:layout_marginTop="60dp"
+            android:fontFamily="@font/primer_print_bold"
+            android:text="  15  "
+            android:textColor="#000"
+            android:textSize="50dp"
+            android:visibility="invisible" />
+
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="656dp"
+        android:layout_marginBottom="20dp"
+        android:layout_above="@+id/kc"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/ovme"
+            android:layout_width="match_parent"
+            android:layout_height="142dp"
+            app:srcCompat="@drawable/missingnum_twoo" />
+
+
+        <ImageView
+            android:id="@+id/sixt_c"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="45dp"
+            app:srcCompat="@drawable/dummy" />
+
+        <TextView
+            android:id="@+id/sixt_c_n"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/primer_print_bold"
+            android:text="  16  "
+            android:textColor="#000"
+            android:textSize="50dp"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/sevent_c"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:layout_marginLeft="165dp"
+            android:layout_marginTop="45dp"
+            app:srcCompat="@drawable/dummy" />
+
+        <TextView
+            android:id="@+id/sevent_c_n"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="170dp"
+            android:layout_marginTop="55dp"
+            android:fontFamily="@font/primer_print_bold"
+            android:text="  17  "
+            android:textColor="#000"
+            android:textSize="50dp"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/ninet_c"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:layout_marginLeft="410dp"
+            android:layout_marginTop="45dp"
+            app:srcCompat="@drawable/dummy" />
+
+        <TextView
+            android:id="@+id/ninet_c_n"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="420dp"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/primer_print_bold"
+            android:text="  19  "
+            android:textColor="#000"
+            android:textSize="50dp"
+            android:visibility="invisible" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/kc"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/drag_onet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/primer_print_bold"
+        android:text="  11  "
+        android:textColor="#000"
+        android:textSize="50dp"
+        />
+
+    <TextView
+        android:id="@+id/drag_threet"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/primer_print_bold"
+        android:text="  13  "
+        android:textColor="#000"
+        android:textSize="50dp"
+        />
+
+    <TextView
+        android:id="@+id/drag_fivet"
+        android:layout_marginLeft="200dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/primer_print_bold"
+        android:text="  15  "
+        android:textColor="#000"
+        android:textSize="50dp"
+        />
+
+    <TextView
+        android:id="@+id/drag_sixt"
+        android:layout_marginLeft="300dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/primer_print_bold"
+        android:text="  16  "
+        android:textColor="#000"
+        android:textSize="50dp"
+       />
+
+    <TextView
+        android:id="@+id/drag_sevent"
+        android:layout_marginLeft="400dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/primer_print_bold"
+        android:text="  17  "
+        android:textColor="#000"
+        android:textSize="50dp"
+       />
+
+    <TextView
+        android:id="@+id/drag_ninet"
+        android:layout_marginLeft="500dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/primer_print_bold"
+        android:text="  19  "
+        android:textColor="#000"
+        android:textSize="50dp"
+      />
+    </FrameLayout>
+
+
+</RelativeLayout>

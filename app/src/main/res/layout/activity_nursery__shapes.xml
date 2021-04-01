@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/shapes_bg_1"
+    android:layout_height="match_parent"
+    tools:context=".Unit1.Nursery.Nursery_Shapes">
+    <FrameLayout
+        android:id="@+id/layout_2"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.154"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/Square"
+            android:layout_width="85dp"
+            android:layout_height="84dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            app:srcCompat="@drawable/square_"
+            tools:layout_editor_absoluteX="89dp"
+            tools:layout_editor_absoluteY="186dp" />
+
+        <ImageView
+            android:id="@+id/s_box"
+            android:layout_width="85dp"
+            android:layout_height="84dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="5dp"
+            app:srcCompat="@drawable/shape_one"
+            tools:layout_editor_absoluteX="89dp"
+            tools:layout_editor_absoluteY="186dp" />
+
+        <ImageView
+            android:id="@+id/s_tv"
+            android:layout_width="96dp"
+            android:layout_height="87dp"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="2dp"
+            app:srcCompat="@drawable/shapes_tv"
+            tools:layout_editor_absoluteX="89dp"
+            tools:layout_editor_absoluteY="186dp" />
+
+        <ImageView
+            android:id="@+id/s_frame"
+            android:layout_width="89dp"
+            android:layout_height="87dp"
+            android:layout_marginLeft="410dp"
+            android:layout_marginTop="3dp"
+            app:srcCompat="@drawable/frame_one"
+            tools:layout_editor_absoluteX="89dp"
+            tools:layout_editor_absoluteY="186dp" />
+
+        <ImageView
+            android:id="@+id/s_mirror"
+            android:layout_width="89dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="540dp"
+            android:layout_marginTop="6dp"
+            app:srcCompat="@drawable/shape_morror"
+            tools:layout_editor_absoluteX="89dp"
+            tools:layout_editor_absoluteY="186dp" />
+
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:id="@+id/layout3"
+        android:layout_marginRight="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/circle"
+            android:layout_width="76dp"
+            android:layout_height="79dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="7dp"
+            app:srcCompat="@drawable/circle_"
+            tools:layout_editor_absoluteX="89dp"
+            tools:layout_editor_absoluteY="186dp" />
+
+
+        <ImageView
+            android:id="@+id/c_ball"
+            android:layout_width="79dp"
+            android:layout_height="73dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="8dp"
+            app:srcCompat="@drawable/circle_one"
+            tools:layout_editor_absoluteX="89dp"
+            tools:layout_editor_absoluteY="186dp" />
+
+        <ImageView
+            android:id="@+id/c_hut"
+            android:layout_width="91dp"
+            android:layout_height="76dp"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="8dp"
+            app:srcCompat="@drawable/shape_three"
+            tools:layout_editor_absoluteX="89dp"
+            tools:layout_editor_absoluteY="186dp" />
+
+        <ImageView
+            android:id="@+id/c_rug"
+            android:layout_width="89dp"
+            android:layout_height="87dp"
+            android:layout_marginLeft="410dp"
+            android:layout_marginTop="3dp"
+            app:srcCompat="@drawable/shapes_rugby"
+            tools:layout_editor_absoluteX="89dp"
+            tools:layout_editor_absoluteY="186dp" />
+
+        <ImageView
+            android:id="@+id/c_lemon"
+            android:layout_width="89dp"
+            android:layout_height="87dp"
+            android:layout_marginLeft="540dp"
+            android:layout_marginTop="3dp"
+            app:srcCompat="@drawable/shapes_lemon"
+            tools:layout_editor_absoluteX="89dp"
+            tools:layout_editor_absoluteY="186dp" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_marginRight="25dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="270dp"
+        android:layout_marginBottom="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/triangle"
+            android:layout_width="87dp"
+            android:layout_height="91dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="7dp"
+            app:srcCompat="@drawable/traingle_"
+            tools:layout_editor_absoluteX="89dp"
+            tools:layout_editor_absoluteY="186dp" />
+
+
+        <ImageView
+            android:id="@+id/t_hut"
+            android:layout_width="94dp"
+            android:layout_height="91dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="5dp"
+            app:srcCompat="@drawable/shape_three"
+            tools:layout_editor_absoluteX="89dp"
+            tools:layout_editor_absoluteY="186dp" />
+
+        <ImageView
+            android:id="@+id/t_pizza"
+            android:layout_width="95dp"
+            android:layout_height="85dp"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="7dp"
+            app:srcCompat="@drawable/shapes_pizza"
+            tools:layout_editor_absoluteX="89dp"
+            tools:layout_editor_absoluteY="186dp" />
+
+        <ImageView
+            android:id="@+id/t_ice"
+            android:layout_width="89dp"
+            android:layout_height="85dp"
+            android:layout_marginLeft="410dp"
+            android:layout_marginTop="6dp"
+            app:srcCompat="@drawable/shapes_icecream"
+            tools:layout_editor_absoluteX="89dp"
+            tools:layout_editor_absoluteY="186dp" />
+
+        <ImageView
+            android:id="@+id/t_melon"
+            android:layout_width="89dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="540dp"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@drawable/traingle_one"
+            tools:layout_editor_absoluteX="89dp"
+            tools:layout_editor_absoluteY="186dp" />
+
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

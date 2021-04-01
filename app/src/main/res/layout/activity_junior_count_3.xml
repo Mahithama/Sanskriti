@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Juniorclass.unit3.junior_count_3">
+    <ViewFlipper
+        android:id="@+id/viewflipper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/numeral_onebg"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_marginTop="70dp"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Count the items \nDrag and drop the numbers to the correct box."
+                android:textSize="30sp" />
+
+            <Button
+                android:layout_marginTop="100dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="nextView"
+                android:text="Next"
+                tools:ignore="OnClick" />
+        </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:layout_height="match_parent">
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/dinoframe1"
+        android:layout_alignParentTop="true"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/dino1_c"
+            android:layout_width="210dp"
+            android:layout_height="270dp"
+            app:srcCompat="@drawable/dino1" />
+
+        <ImageView
+            android:visibility="invisible"
+            android:id="@+id/dino1_c_n"
+            android:layout_width="210dp"
+            android:layout_height="270dp"
+            app:srcCompat="@drawable/dino1_1" />
+
+        <ImageView
+            android:id="@+id/dino2_c"
+            android:layout_marginLeft="210dp"
+            android:layout_width="210dp"
+            android:layout_height="270dp"
+            app:srcCompat="@drawable/dino2" />
+        <ImageView
+            android:visibility="invisible"
+            android:id="@+id/dino2_c_n"
+            android:layout_marginLeft="210dp"
+            android:layout_width="210dp"
+            android:layout_height="270dp"
+            app:srcCompat="@drawable/dino2_1" />
+
+        <ImageView
+
+            android:id="@+id/dino5_c"
+            android:layout_marginLeft="420dp"
+            android:layout_width="210dp"
+            android:layout_height="270dp"
+            app:srcCompat="@drawable/dino5" />
+        <ImageView
+            android:visibility="invisible"
+            android:id="@+id/dino5_c_n"
+            android:layout_marginLeft="420dp"
+            android:layout_width="210dp"
+            android:layout_height="270dp"
+            app:srcCompat="@drawable/dino5_1" />
+
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/drag_dino1"
+            android:layout_width="70dp"
+            android:layout_height="80dp"
+            app:srcCompat="@drawable/dinoo1" />
+
+        <ImageView
+            android:id="@+id/drag_dino4"
+            android:layout_marginLeft="80dp"
+            android:layout_width="70dp"
+            android:layout_height="83dp"
+            app:srcCompat="@drawable/dinoo4" />
+
+        <ImageView
+            android:id="@+id/drag_dino2"
+            android:layout_marginLeft="160dp"
+            android:layout_width="70dp"
+            android:layout_height="83dp"
+            app:srcCompat="@drawable/dinoo2" />
+
+        <ImageView
+            android:id="@+id/drag_dino3"
+            android:layout_marginLeft="240dp"
+            android:layout_width="70dp"
+            android:layout_height="83dp"
+            app:srcCompat="@drawable/dinoo3" />
+
+        <ImageView
+            android:id="@+id/drag_dino5"
+            android:layout_marginLeft="320dp"
+            android:layout_width="70dp"
+            android:layout_height="83dp"
+            app:srcCompat="@drawable/dinoo5" />
+
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/dino4_c_n"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/dummy" />
+
+    <ImageView
+        android:id="@+id/dino3_c_n"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/dummy" />
+    <ImageView
+        android:id="@+id/dino4_c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/dummy" />
+
+    <ImageView
+        android:id="@+id/dino3_c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/dummy" />
+
+    </LinearLayout>
+    </ViewFlipper>
+
+</RelativeLayout>

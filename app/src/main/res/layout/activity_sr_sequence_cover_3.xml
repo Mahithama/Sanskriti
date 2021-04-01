@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/cover_bg"
+    android:layout_height="match_parent"
+    tools:context=".Seniorkg.Unit3.Sr_sequence_cover_3">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/textView1"
+            android:textSize="30dp"
+            android:layout_marginLeft="190dp"
+            android:textColor="#FF5722"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sequence of the scene" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_marginTop="60dp"
+            android:textSize="30dp"
+            android:textAlignment="center"
+            android:textColor="@color/purple_500"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Drag and drop the pictures to the correct sequence"
+            android:gravity="center_horizontal" />
+    </FrameLayout>
+
+    <ImageView
+
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:id="@+id/start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/start_but" />
+
+</RelativeLayout>

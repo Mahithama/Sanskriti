@@ -1,0 +1,127 @@
+{
+  "project_info": {
+    "project_number": "518654203960",
+    "firebase_url": "https://sanskriti-application.firebaseio.com",
+    "project_id": "sanskriti-application",
+    "storage_bucket": "sanskriti-application.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:518654203960:android:5b0f5770b1b5c16cf36ecd",
+        "android_client_info": {
+          "package_name": "com.example.chrysallite_m"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "518654203960-s4imvgtpuv23tk6l30giok5a189h6lm2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5LEydVmlcjgoS7-W11WuqP-SBNAwNw3g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "518654203960-s4imvgtpuv23tk6l30giok5a189h6lm2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:518654203960:android:e3c354edef270160f36ecd",
+        "android_client_info": {
+          "package_name": "com.example.mahi_sanskriti_august2020"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "518654203960-s4imvgtpuv23tk6l30giok5a189h6lm2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5LEydVmlcjgoS7-W11WuqP-SBNAwNw3g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "518654203960-s4imvgtpuv23tk6l30giok5a189h6lm2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:518654203960:android:52ca4c987c694aaef36ecd",
+        "android_client_info": {
+          "package_name": "com.example.sanskriti_2020_all"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "518654203960-s4imvgtpuv23tk6l30giok5a189h6lm2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5LEydVmlcjgoS7-W11WuqP-SBNAwNw3g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "518654203960-s4imvgtpuv23tk6l30giok5a189h6lm2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:518654203960:android:5ca7aedff949296ef36ecd",
+        "android_client_info": {
+          "package_name": "com.example.sanskriti_application"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "518654203960-s4imvgtpuv23tk6l30giok5a189h6lm2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5LEydVmlcjgoS7-W11WuqP-SBNAwNw3g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "518654203960-s4imvgtpuv23tk6l30giok5a189h6lm2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

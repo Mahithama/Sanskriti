@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/unitscreens"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/sanskriti_bgg"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout
+        android:id="@+id/units"
+        android:layout_marginTop="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+
+        <ImageView
+            android:id="@+id/unit1"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="0dp"
+            app:srcCompat="@drawable/unit_one" />
+
+
+        <ImageView
+            android:id="@+id/unit2"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="160dp"
+
+            app:srcCompat="@drawable/unit_two" />
+
+
+        <ImageView
+            android:id="@+id/unit3"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="130dp"
+            app:srcCompat="@drawable/unit_three" />
+
+
+        <ImageView
+            android:id="@+id/unit4"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="160dp"
+            android:layout_marginTop="130dp"
+            app:srcCompat="@drawable/unit_four" />
+
+
+        <ImageView
+            android:id="@+id/unit5"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="260dp"
+            app:srcCompat="@drawable/unit_five" />
+
+
+        <ImageView
+            android:id="@+id/unit6"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="160dp"
+            android:layout_marginTop="260dp"
+            app:srcCompat="@drawable/unit_six" />
+
+        <ImageView
+            android:id="@+id/unit7"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="380dp"
+            app:srcCompat="@drawable/unit_seven" />
+
+
+        <ImageView
+            android:id="@+id/unit8"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="160dp"
+            android:layout_marginTop="380dp"
+            app:srcCompat="@drawable/unit_eight" />
+    </FrameLayout>
+    <androidx.appcompat.widget.Toolbar
+
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/sans_nav"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <ImageView
+        android:id="@+id/logout_icon"
+        android:layout_width="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_height="59dp"
+       android:layout_centerHorizontal="true"
+        android:src="@drawable/kg_logout_icon" />
+
+</RelativeLayout>

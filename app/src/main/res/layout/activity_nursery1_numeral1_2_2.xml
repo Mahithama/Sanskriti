@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/numeral_onebg"
+    tools:context=".Unit1.Nursery.Nursery1_numeral1_2_2">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/primer_print_bold"
+        android:text="Introducing numeral 2 (Two) "
+        android:textColor="#000"
+        android:textSize="25dp"
+        android:layout_centerHorizontal="true" />
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:id="@+id/box_1"
+            android:layout_width="297dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="230dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.094"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.437"
+            app:srcCompat="@drawable/box_circ" />
+
+        <ImageView
+            android:id="@+id/box_2"
+            android:layout_width="297dp"
+            android:layout_height="230dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="350dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.873"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.437"
+            app:srcCompat="@drawable/boxx_circ" />
+
+        <ImageView
+            android:id="@+id/orange_c"
+            android:layout_width="71dp"
+            android:layout_height="140dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="200dp"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.369"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.458"
+            app:srcCompat="@drawable/two_circ" />
+
+        <ImageView
+            android:id="@+id/orangee"
+            android:layout_width="71dp"
+            android:layout_height="140dp"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="70dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.369"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.458"
+            app:srcCompat="@drawable/twoo_circ" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/primer_print_bold"
+            android:text="Two"
+            android:textColor="#000"
+            android:layout_marginTop="150dp"
+            android:layout_marginLeft="100dp"
+            android:textSize="50dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.207"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.646" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/primer_print_bold"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="240dp"
+            android:layout_marginLeft="70dp"
+            android:text="Tap on the orange colour \n to fill the number 2 (Two) "
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="18dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.102"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.92" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/primer_print_bold"
+            android:gravity="center_horizontal"
+            android:text="Tap on 2 (Two) cookies in to the jar"
+            android:textAlignment="center"
+            android:layout_marginTop="250dp"
+            android:layout_marginLeft="390dp"
+            android:textColor="#000"
+            android:textSize="18dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.828"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.867" />
+
+        <ImageView
+            android:id="@+id/jar2"
+            android:layout_width="93dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="460dp"
+            android:layout_height="109dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.753"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.384"
+            app:srcCompat="@drawable/jar_empty" />
+
+        <ImageView
+            android:id="@+id/cookie2_c"
+            android:layout_width="93dp"
+            android:layout_height="109dp"
+            android:visibility="invisible"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="460dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.753"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.384"
+            app:srcCompat="@drawable/jartwo_circle" />
+
+        <ImageView
+            android:id="@+id/cookie1"
+            android:layout_width="49dp"
+            android:layout_height="42dp"
+            android:layout_marginTop="180dp"
+            android:layout_marginLeft="400dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.624"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.687"
+            app:srcCompat="@drawable/cookie_one" />
+
+        <ImageView
+            android:id="@+id/cookie22"
+            android:layout_width="49dp"
+            android:layout_height="42dp"
+            android:layout_marginTop="180dp"
+            android:layout_marginLeft="490dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.737"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.688"
+            app:srcCompat="@drawable/cookie_two" />
+
+
+        <ImageView
+            android:id="@+id/cookie3"
+            android:layout_width="49dp"
+            android:layout_height="42dp"
+            android:layout_marginTop="180dp"
+            android:layout_marginLeft="580dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.853"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.688"
+            app:srcCompat="@drawable/cookie_three" />
+
+        <ImageView
+            android:id="@+id/blue"
+            android:layout_width="29dp"
+            android:layout_height="43dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="34dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.102"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.315"
+            app:srcCompat="@drawable/blur_cir" />
+
+        <ImageView
+            android:id="@+id/orange"
+            android:layout_width="29dp"
+            android:layout_height="43dp"
+            android:layout_marginTop="110dp"
+            android:layout_marginLeft="34dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.102"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ora_cir" />
+
+
+        <ImageView
+            android:id="@+id/green"
+            android:layout_width="29dp"
+            android:layout_marginTop="180dp"
+            android:layout_marginLeft="34dp"
+            android:layout_height="43dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.102"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.657"
+            app:srcCompat="@drawable/gre_cir" />
+
+
+    </FrameLayout>
+
+
+
+</RelativeLayout>

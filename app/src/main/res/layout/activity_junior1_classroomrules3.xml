@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/doodle_bgg"
+    android:layout_height="match_parent"
+    tools:context=".Juniorclass.unit1.Junior1_classroomrules3">
+    <FrameLayout
+        android:id="@+id/hdj"
+        android:layout_width="621dp"
+        android:layout_height="297dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="65dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginRight="45dp"
+        android:layout_marginBottom="38dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/class_three"
+            android:layout_width="287dp"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/class_three"
+            tools:layout_editor_absoluteX="59dp"
+            tools:layout_editor_absoluteY="116dp" />
+
+        <TextView
+            android:id="@+id/class_threet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="260dp"
+            android:text="We keep our classroom clean"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/class_four"
+            android:layout_width="287dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="300dp"
+            app:srcCompat="@drawable/class_four"
+            tools:layout_editor_absoluteX="59dp"
+            tools:layout_editor_absoluteY="116dp" />
+
+        <TextView
+            android:id="@+id/class_fourt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="260dp"
+            android:text="We will be kind to our classmates"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:visibility="invisible" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

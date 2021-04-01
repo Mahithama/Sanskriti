@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/actvity_bgg"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <FrameLayout
+        android:id="@+id/icons"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true">
+
+        <ImageButton
+
+            android:id="@+id/act_1"
+            android:layout_width="133dp"
+            android:layout_height="132dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/activty_bu" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="100dp"
+            android:fontFamily="@font/primer_print_bold"
+            android:text="Activity-1"
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+
+        <ImageButton
+            android:id="@+id/act_2"
+            android:layout_width="133dp"
+            android:layout_height="130dp"
+            android:layout_marginLeft="170dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/activty_bu" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="100dp"
+            android:fontFamily="@font/primer_print_bold"
+            android:text="Activity-2"
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/iconss"
+        android:layout_below="@+id/icons"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+
+            android:id="@+id/act_3"
+            android:layout_width="133dp"
+            android:layout_height="132dp"
+            android:layout_marginLeft="0dp"
+            android:background="@drawable/activty_bu" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/primer_print_bold"
+            android:text="Activity-3"
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+
+        <ImageButton
+            android:id="@+id/act_4"
+            android:layout_width="133dp"
+            android:layout_height="130dp"
+            android:layout_marginLeft="170dp"
+            android:background="@drawable/activty_bu" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/primer_print_bold"
+            android:text="Activity-4"
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+
+    </FrameLayout>
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/sans_nav" />
+
+
+    <ImageView
+        android:id="@+id/return_activity"
+        android:layout_width="73dp"
+        android:layout_height="66dp"
+        android:layout_centerHorizontal="true"
+      android:layout_alignParentBottom="true"
+        android:src="@drawable/kg_back_icon" />
+
+</RelativeLayout>

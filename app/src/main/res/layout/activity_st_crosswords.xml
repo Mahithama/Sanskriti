@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/search_bg"
+    tools:context=".Seniorkg.Unit4.St_crosswords">
+    <FrameLayout
+        android:layout_width="371dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_height="321dp"
+        android:background="@drawable/words">
+
+        <TextView
+            android:id="@+id/stage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/printbold"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:text=" S   T  A   G   E"
+            android:textColor="@color/black"
+            android:textSize="45dp" />
+
+
+        <TextView
+            android:id="@+id/stud"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/printbold"
+            android:layout_marginLeft="330dp"
+            android:layout_marginTop="15dp"
+            android:lineSpacingExtra="-15dp"
+            android:text="S\n\nT\n\nU\n\nD"
+            android:textColor="@color/black"
+            android:textSize="45dp" />
+
+        <TextView
+            android:id="@+id/pig"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/printbold"
+            android:layout_marginTop="80dp"
+            android:lineSpacingExtra="-15dp"
+            android:text=" S\n\n T\n\n O\n\n P"
+            android:textColor="@color/black"
+            android:textSize="45dp" />
+
+        <TextView
+            android:id="@+id/study"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/printbold"
+            android:layout_marginLeft="95dp"
+            android:layout_marginTop="263dp"
+            android:lineSpacingExtra="5dp"
+            android:text="S  T   U   D  Y"
+            android:textColor="@color/black"
+            android:textSize="45dp" />
+
+
+        <TextView
+            android:id="@+id/b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/printbold"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="75dp"
+            android:text=" B "
+            android:textColor="@color/black"
+            android:textSize="45dp" />
+
+        <TextView
+            android:id="@+id/c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/printbold"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="75dp"
+            android:text=" C "
+            android:textColor="@color/black"
+            android:textSize="45dp" />
+
+        <TextView
+            android:id="@+id/d"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/printbold"
+            android:layout_marginLeft="135dp"
+            android:layout_marginTop="75dp"
+            android:text=" D "
+            android:textColor="@color/black"
+            android:textSize="45dp" />
+
+        <TextView
+            android:id="@+id/e"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/printbold"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="200dp"
+            android:text=" E "
+            android:textColor="@color/black"
+            android:textSize="45dp" />
+
+        <TextView
+            android:id="@+id/f"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/printbold"
+            android:layout_marginLeft="257dp"
+            android:layout_marginTop="80dp"
+            android:text=" F "
+            android:textColor="@color/black"
+            android:textSize="45dp" />
+
+        <TextView
+            android:id="@+id/stem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/printbold"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="140dp"
+            android:text=" S  T   E   M "
+            android:textColor="@color/black"
+            android:textSize="45dp" />
+
+        <TextView
+            android:id="@+id/h"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/printbold"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="200dp"
+            android:text=" H "
+            android:textColor="@color/black"
+            android:textSize="45dp" />
+
+        <TextView
+            android:id="@+id/i1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/printbold"
+            android:layout_marginLeft="257dp"
+            android:layout_marginTop="200dp"
+            android:text=" I "
+            android:textColor="@color/black"
+            android:textSize="45dp" />
+
+        <TextView
+            android:id="@+id/j"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/printbold"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="200dp"
+            android:text=" J "
+            android:textColor="@color/black"
+            android:textSize="45dp" />
+
+
+    </FrameLayout>
+</RelativeLayout>

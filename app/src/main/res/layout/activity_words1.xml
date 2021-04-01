@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Juniorclass.unit4.words1">
+    <ViewFlipper
+        android:id="@+id/viewflipper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/numeral_onebg"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_marginTop="70dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:textColor="#FF5722"
+            android:layout_height="wrap_content"
+            android:text="Words."
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textColor="#151515"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Drag and drop the words to the correct pictures."
+            android:textSize="22sp" />
+
+        <Button
+            android:layout_marginTop="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="nextView"
+            android:text="Next"
+            tools:ignore="OnClick" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="@color/coloryellow"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/net_c"
+                android:layout_width="120dp"
+                android:layout_height="150dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.295"
+                app:srcCompat="@drawable/net_4"
+                tools:layout_editor_absoluteX="15dp" />
+
+            <ImageView
+                android:id="@+id/net_c_n"
+                android:layout_width="120dp"
+                android:visibility="invisible"
+                android:layout_height="150dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.295"
+                app:srcCompat="@drawable/net_4_a"
+                tools:layout_editor_absoluteX="15dp" />
+
+            <ImageView
+                android:id="@+id/hen_c"
+                android:layout_width="120dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="120dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.295"
+                app:srcCompat="@drawable/hen_4"
+                tools:layout_editor_absoluteX="15dp" />
+
+            <ImageView
+                android:id="@+id/hen_c_n"
+                android:layout_width="120dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="120dp"
+                android:visibility="invisible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.295"
+                app:srcCompat="@drawable/hen_4_a"
+                tools:layout_editor_absoluteX="15dp" />
+            <ImageView
+                android:id="@+id/cat_c"
+                android:layout_width="120dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="240dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.295"
+                app:srcCompat="@drawable/cat_4"
+                tools:layout_editor_absoluteX="15dp" />
+            <ImageView
+                android:id="@+id/cat_c_n"
+                android:layout_width="120dp"
+                android:layout_height="150dp"
+                android:visibility="invisible"
+                android:layout_marginLeft="240dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.295"
+                app:srcCompat="@drawable/cat_4_a"
+                tools:layout_editor_absoluteX="15dp" />
+
+            <ImageView
+                android:id="@+id/men_c"
+                android:layout_width="120dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="360dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.295"
+                app:srcCompat="@drawable/men_4"
+                tools:layout_editor_absoluteX="15dp" />
+
+            <ImageView
+                android:id="@+id/men_c_n"
+                android:layout_width="120dp"
+                android:layout_height="150dp"
+                android:visibility="invisible"
+                android:layout_marginLeft="360dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.295"
+                app:srcCompat="@drawable/men_4_a"
+                tools:layout_editor_absoluteX="15dp" />
+
+
+            <ImageView
+                android:id="@+id/ten_c"
+                android:layout_width="120dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="480dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.295"
+                app:srcCompat="@drawable/ten_4"
+                tools:layout_editor_absoluteX="15dp" />
+
+            <ImageView
+                android:id="@+id/ten_c_n"
+                android:layout_width="120dp"
+                android:layout_height="150dp"
+                android:visibility="invisible"
+                android:layout_marginLeft="480dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.295"
+                app:srcCompat="@drawable/ten_4_a"
+                tools:layout_editor_absoluteX="15dp" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:layout_gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/drag_hen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hen"
+                android:textSize="40sp"
+                android:textColor="@color/black"/>
+            <TextView
+                android:id="@+id/drag_ten"
+                android:layout_marginLeft="100dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ten"
+                android:textSize="40sp"
+                android:textColor="@color/black"/>
+            <TextView
+                android:id="@+id/drag_cat"
+                android:layout_marginLeft="200dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cat"
+                android:textSize="40sp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/drag_net"
+                android:layout_marginLeft="300dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Net"
+                android:textSize="40sp"
+                android:textColor="@color/black"/>
+            <TextView
+                android:id="@+id/drag_men"
+                android:layout_marginLeft="400dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Men"
+                android:textSize="40sp"
+                android:textColor="@color/black"/>
+
+        </FrameLayout>
+    </LinearLayout>
+    </ViewFlipper>
+</RelativeLayout>

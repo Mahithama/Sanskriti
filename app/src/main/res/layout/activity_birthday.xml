@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Seniorkg.Unit2.Birthday">
+
+    <ViewFlipper
+        android:id="@+id/viewflipper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/numeral_onebg"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_marginTop="70dp"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sequence. \nDrag and drop the picture to form correct sequence."
+            android:textSize="27sp" />
+
+        <Button
+            android:layout_marginTop="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="nextView"
+            android:text="Next"
+            tools:ignore="OnClick" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/bd1_c"
+            android:layout_width="150dp"
+            android:layout_height="180dp"
+            app:srcCompat="@drawable/sequence_1" />
+
+        <ImageView
+            android:id="@+id/bd1_c_n"
+            android:visibility="invisible"
+            android:layout_width="150dp"
+            android:layout_height="180dp"
+            app:srcCompat="@drawable/bdy_1" />
+
+        <ImageView
+            android:id="@+id/bd2_c"
+            android:layout_marginLeft="155dp"
+            android:layout_width="150dp"
+            android:layout_height="180dp"
+            app:srcCompat="@drawable/sequence_2" />
+
+        <ImageView
+            android:id="@+id/bd2_c_n"
+            android:visibility="invisible"
+            android:layout_marginLeft="155dp"
+            android:layout_width="150dp"
+            android:layout_height="180dp"
+            app:srcCompat="@drawable/bdy_2" />
+
+        <ImageView
+            android:id="@+id/bd3_c"
+            android:layout_marginLeft="315dp"
+            android:layout_width="150dp"
+            android:layout_height="180dp"
+            app:srcCompat="@drawable/sequence_3" />
+        <ImageView
+            android:id="@+id/bd3_c_n"
+            android:visibility="invisible"
+            android:layout_marginLeft="315dp"
+            android:layout_width="150dp"
+            android:layout_height="180dp"
+            app:srcCompat="@drawable/bdy_3" />
+
+        <ImageView
+            android:id="@+id/bd4_c"
+            android:layout_marginLeft="470dp"
+            android:layout_width="150dp"
+            android:layout_height="180dp"
+            app:srcCompat="@drawable/sequence_4" />
+
+        <ImageView
+            android:id="@+id/bd4_c_n"
+            android:visibility="invisible"
+            android:layout_marginLeft="470dp"
+            android:layout_width="150dp"
+            android:layout_height="180dp"
+            app:srcCompat="@drawable/bdy_4" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/drag_bd4"
+            android:layout_width="140dp"
+            android:layout_height="130dp"
+            app:srcCompat="@drawable/bdy_4" />
+
+        <ImageView
+            android:id="@+id/drag_bd3"
+            android:layout_marginLeft="150dp"
+            android:layout_width="140dp"
+            android:layout_height="130dp"
+            app:srcCompat="@drawable/bdy_3" />
+
+        <ImageView
+            android:id="@+id/drag_bd2"
+            android:layout_marginLeft="300dp"
+            android:layout_width="140dp"
+            android:layout_height="130dp"
+            app:srcCompat="@drawable/bdy_2" />
+
+        <ImageView
+            android:id="@+id/drag_bd1"
+            android:layout_marginLeft="450dp"
+            android:layout_width="140dp"
+            android:layout_height="130dp"
+            app:srcCompat="@drawable/bdy_1" />
+
+    </FrameLayout>
+    </LinearLayout>
+    </ViewFlipper>
+
+</RelativeLayout>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/creambg"
+    android:layout_height="match_parent"
+    tools:context=".Seniorkg.Unit1.Senior1_words2">
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_width="582dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/hat_c"
+            android:layout_width="170dp"
+            android:layout_height="140dp"
+            android:layout_marginRight="450dp"
+            app:srcCompat="@drawable/word_hat" />
+
+        <ImageView
+            android:id="@+id/hat_c_n"
+            android:layout_width="170dp"
+            android:layout_height="140dp"
+            android:visibility="invisible"
+            android:layout_marginRight="450dp"
+            app:srcCompat="@drawable/word_hatt" />
+
+
+        <ImageView
+            android:id="@+id/bin_c"
+            android:layout_width="170dp"
+            android:layout_height="140dp"
+            android:layout_marginLeft="200dp"
+            app:srcCompat="@drawable/word_bin" />
+
+        <ImageView
+            android:id="@+id/bin_c_n"
+            android:layout_width="170dp"
+            android:layout_height="140dp"
+            android:visibility="invisible"
+            android:layout_marginLeft="200dp"
+            app:srcCompat="@drawable/word_binn" />
+
+
+
+        <ImageView
+            android:id="@+id/fox_c"
+            android:layout_width="170dp"
+            android:layout_height="140dp"
+            android:layout_marginLeft="400dp"
+            app:srcCompat="@drawable/word_fox" />
+
+        <ImageView
+            android:id="@+id/fox_c_n"
+            android:layout_width="170dp"
+            android:layout_height="140dp"
+            android:visibility="invisible"
+            android:layout_marginLeft="400dp"
+            app:srcCompat="@drawable/word_foxx" />
+
+        <ImageView
+            android:id="@+id/bus_c"
+            android:layout_width="170dp"
+            android:layout_height="140dp"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="145dp"
+            android:layout_marginRight="450dp"
+            app:srcCompat="@drawable/word_bus" />
+
+        <ImageView
+            android:id="@+id/bus_c_n"
+            android:layout_width="170dp"
+            android:layout_height="140dp"
+            android:layout_marginLeft="90dp"
+            android:visibility="invisible"
+            android:layout_marginTop="145dp"
+            android:layout_marginRight="450dp"
+            app:srcCompat="@drawable/word_buss" />
+
+
+        <ImageView
+            android:id="@+id/mat_c"
+            android:layout_width="170dp"
+            android:layout_height="140dp"
+            android:layout_marginLeft="330dp"
+            android:layout_marginTop="145dp"
+            app:srcCompat="@drawable/word_mat" />
+
+        <ImageView
+            android:id="@+id/mat_c_n"
+            android:layout_width="170dp"
+            android:layout_height="140dp"
+            android:layout_marginLeft="330dp"
+            android:visibility="invisible"
+            android:layout_marginTop="145dp"
+            app:srcCompat="@drawable/word_matt" />
+
+
+    </FrameLayout>
+    <FrameLayout
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/drag_fox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/primer_print_bold"
+        android:text="  fox  "
+        android:textColor="#000"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/drag_hat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/primer_print_bold"
+        android:text="  hat  "
+        android:layout_marginLeft="100dp"
+        android:textColor="#000"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/drag_mat"
+        android:layout_marginLeft="200dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/primer_print_bold"
+        android:text="  mat  "
+        android:textColor="#000"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/drag_bin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="300dp"
+        android:fontFamily="@font/primer_print_bold"
+        android:text="  bin  "
+        android:textColor="#000"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/drag_bus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="400dp"
+        android:fontFamily="@font/primer_print_bold"
+        android:text="  bus  "
+        android:textColor="#000"
+        android:textSize="40dp" />
+
+    </FrameLayout>
+
+
+
+
+</RelativeLayout>

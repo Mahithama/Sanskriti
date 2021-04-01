@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Nurseryclass.Unit5.L_alphabet">
+    <ViewFlipper
+        android:id="@+id/viewflipper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@drawable/numeral_onebg"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_marginTop="70dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:textColor="#FF5722"
+                android:layout_height="wrap_content"
+                android:text="Alphabet 'L'."
+                android:textSize="30sp" />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:textColor="#151515"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tap on all the ' L l ' letter words. "
+                android:textSize="22sp" />
+
+            <Button
+                android:layout_marginTop="100dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="nextView"
+                android:text="Next"
+                tools:ignore="OnClick" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/l_bg"
+            android:layout_height="match_parent">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <ImageView
+                    android:id="@+id/lock"
+                    android:layout_width="148dp"
+                    android:layout_height="137dp"
+                    android:layout_marginLeft="220dp"
+                    app:srcCompat="@drawable/l_lock" />
+
+
+
+                <ImageView
+                    android:id="@+id/lunch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="200dp"
+                    android:layout_marginTop="150dp"
+                    app:srcCompat="@drawable/l_lunch" />
+
+                <ImageView
+                    android:id="@+id/lob"
+                    android:layout_width="210dp"
+                    android:layout_height="147dp"
+                    android:layout_marginLeft="390dp"
+                    app:srcCompat="@drawable/l_lob" />
+
+
+                <ImageView
+                    android:id="@+id/lily"
+                    android:layout_width="130dp"
+                    android:layout_height="190dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="130dp"
+                    app:srcCompat="@drawable/l_lily" />
+                <ImageView
+                    android:id="@+id/lime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="125dp"
+                    android:layout_marginLeft="500dp"
+                    android:layout_marginTop="200dp"
+                    app:srcCompat="@drawable/l_lime" />
+
+            </FrameLayout>
+        </LinearLayout>
+    </ViewFlipper>
+</RelativeLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/gif_bg"
+    android:layout_height="match_parent"
+    tools:context=".Juniorclass.unit6.I_will">
+    <ViewFlipper
+        android:id="@+id/view_flipper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:inAnimation="@android:anim/slide_in_left"
+        android:outAnimation="@android:anim/slide_out_right">
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/gifImageView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/run" />
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/gifImageView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/hop" />
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/gifImageView3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/stir" />
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/gifImageView4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/cut" />
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/gifImageView5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/fix" />
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/gifImageView6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/wet" />
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/gifImageView7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/nap" />
+
+
+    </ViewFlipper>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_alignParentBottom="true"
+        android:onClick="previousView"
+        android:textSize="10dp"
+        android:text="Previous"
+        tools:ignore="OnClick" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_height="32dp"
+        android:layout_alignParentBottom="true"
+        android:onClick="nextView"
+        android:textSize="10dp"
+        android:text="Next"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/close"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_height="32dp"
+        android:layout_alignParentBottom="true"
+        android:onClick="nextView"
+        android:textSize="10dp"
+        android:text="Close"
+        tools:ignore="OnClick" />
+
+
+</RelativeLayout>

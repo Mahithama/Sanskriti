@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Juniorclass.unit6.Short_o_sounds">
+
+    <ViewFlipper
+        android:id="@+id/viewflipper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/numeral_onebg"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_marginTop="150dp"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="'o' sound. \n\nTap on the words."
+            android:textSize="30sp" />
+
+        <Button
+            android:layout_marginTop="200dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="nextView"
+            android:text="Next"
+            tools:ignore="OnClick" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_centerHorizontal="true"
+        android:id="@+id/image"
+        android:layout_width="233dp"
+        android:layout_height="212dp"
+        app:srcCompat="@drawable/pot" />
+    <FrameLayout
+        android:id="@+id/image2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/box"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Box" />
+
+        <TextView
+            android:id="@+id/cob"
+            android:layout_marginLeft="90dp"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cob" />
+
+        <TextView
+            android:id="@+id/cot"
+            android:layout_marginLeft="180dp"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cot" />
+
+        <TextView
+            android:id="@+id/fog"
+            android:layout_marginLeft="260dp"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fog" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/image3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/image2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/mom"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="mom" />
+
+        <TextView
+            android:id="@+id/pod"
+            android:layout_marginLeft="90dp"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pod" />
+
+        <TextView
+            android:id="@+id/fox"
+            android:layout_marginLeft="180dp"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fox" />
+
+        <TextView
+            android:id="@+id/rob"
+            android:layout_marginLeft="260dp"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rob" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/image4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/image3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/hop"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hop" />
+
+        <TextView
+            android:id="@+id/hot"
+            android:layout_marginLeft="90dp"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hot" />
+
+        <TextView
+            android:id="@+id/hog"
+            android:layout_marginLeft="180dp"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hog" />
+
+        <TextView
+            android:id="@+id/mop"
+            android:layout_marginLeft="260dp"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mop" />
+
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:id="@+id/image5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/image4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/pot"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pot" />
+
+        <TextView
+            android:id="@+id/jog"
+            android:layout_marginLeft="90dp"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jog" />
+
+        <TextView
+            android:id="@+id/pop"
+            android:layout_marginLeft="180dp"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pop" />
+
+        <TextView
+            android:id="@+id/top"
+            android:layout_marginLeft="260dp"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Top" />
+
+    </FrameLayout>
+
+
+
+    <Button
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:id="@+id/button"
+        android:textSize="20dp"
+        android:background="@color/purple_200"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next" />
+
+    </LinearLayout>
+    </ViewFlipper>
+
+</RelativeLayout>

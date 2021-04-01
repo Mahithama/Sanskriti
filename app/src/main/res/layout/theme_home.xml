@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/unit_one_home_bg"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="140dp">
+
+
+        <ImageView
+            android:id="@+id/themes"
+            android:layout_width="140dp"
+            android:layout_height="155dp"
+            android:layout_marginLeft="20dp"
+            app:srcCompat="@drawable/themes_icon" />
+
+
+        <ImageView
+            android:id="@+id/numeracy"
+            android:layout_width="155dp"
+            android:layout_height="155dp"
+            android:layout_marginLeft="185dp"
+            app:srcCompat="@drawable/numercy_icon" />
+
+
+        <ImageView
+            android:id="@+id/literacy"
+            android:layout_width="155dp"
+            android:layout_height="155dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="190dp"
+            app:srcCompat="@drawable/literacy_icon" />
+
+
+
+    </FrameLayout>
+
+    <androidx.appcompat.widget.Toolbar
+
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/sans_nav"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <ImageView
+        android:id="@+id/back_icon"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:layout_width="50dp"
+        android:layout_height="35dp"
+       android:layout_centerHorizontal="true"
+        android:src="@drawable/kg_back_icon" />
+</RelativeLayout>

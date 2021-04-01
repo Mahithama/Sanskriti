@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fruit_bggg"
+    tools:context=".Juniorclass.unit1.Junior1_fruits2">
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="170dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <ImageView
+            android:id="@+id/grape_c"
+            android:layout_width="138dp"
+            android:layout_height="105dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/purp_fruitt" />
+
+        <ImageView
+            android:id="@+id/grape_c_n"
+            android:layout_width="138dp"
+            android:layout_height="105dp"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/grapes_fruits" />
+
+        <ImageView
+            android:id="@+id/chiku_c"
+            android:layout_width="138dp"
+            android:layout_height="105dp"
+            android:layout_marginLeft="150dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/brow_fruitt" />
+
+        <ImageView
+            android:id="@+id/chiku_c_n"
+            android:layout_width="138dp"
+            android:layout_height="105dp"
+            android:layout_marginLeft="150dp"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/chiku_fruits" />
+
+        <ImageView
+            android:id="@+id/berry_c"
+            android:layout_width="138dp"
+            android:layout_height="105dp"
+            android:layout_marginLeft="300dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/red_fruitt" />
+
+        <ImageView
+            android:id="@+id/berry_c_n"
+            android:layout_width="138dp"
+            android:layout_height="105dp"
+            android:layout_marginLeft="300dp"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/berry_fruits" />
+
+        <ImageView
+            android:id="@+id/melon_c"
+            android:layout_width="138dp"
+            android:layout_height="105dp"
+            android:layout_marginLeft="450dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/pear_fruit" />
+
+        <ImageView
+            android:id="@+id/melon_c_n"
+            android:layout_width="138dp"
+            android:layout_height="105dp"
+            android:layout_marginLeft="450dp"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/mwlon_fruits" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="594dp"
+        android:layout_height="105dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="170dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <ImageView
+            android:id="@+id/drag_chiku"
+            android:layout_width="138dp"
+            android:layout_height="105dp"
+            android:layout_marginBottom="150dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/chiku" />
+
+        <ImageView
+            android:id="@+id/drag_melon"
+            android:layout_width="138dp"
+            android:layout_height="105dp"
+            android:layout_marginLeft="150dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/outline_watermelon" />
+
+        <ImageView
+            android:id="@+id/drag_grape"
+            android:layout_width="138dp"
+            android:layout_height="105dp"
+            android:layout_marginLeft="300dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/outline_grapes" />
+
+        <ImageView
+            android:id="@+id/drag_berry"
+            android:layout_width="138dp"
+            android:layout_height="105dp"
+            android:layout_marginLeft="450dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/outline_berry" />
+    </FrameLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

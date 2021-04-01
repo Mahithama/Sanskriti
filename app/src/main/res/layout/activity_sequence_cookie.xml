@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Seniorkg.Unit5.Sequence_cookie">
+
+    <ViewFlipper
+        android:id="@+id/viewflipper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/numeral_onebg"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_marginTop="70dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:textColor="#FF5722"
+            android:layout_height="wrap_content"
+            android:text="Sequence."
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textColor="#151515"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Drag and drop the pictures to form a sequene. "
+            android:textSize="27sp" />
+
+        <Button
+            android:layout_marginTop="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="nextView"
+            android:text="Next"
+            tools:ignore="OnClick" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:layout_height="match_parent">
+
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/a_c"
+                android:layout_width="150dp"
+                android:layout_height="180dp"
+                app:srcCompat="@drawable/sequence_1" />
+
+            <ImageView
+                android:id="@+id/a_c_n"
+                android:visibility="invisible"
+                android:layout_width="150dp"
+                android:layout_height="180dp"
+                app:srcCompat="@drawable/story_2" />
+
+            <ImageView
+                android:id="@+id/b_c"
+                android:layout_marginLeft="155dp"
+                android:layout_width="150dp"
+                android:layout_height="180dp"
+                app:srcCompat="@drawable/sequence_2" />
+
+            <ImageView
+                android:id="@+id/b_c_n"
+                android:visibility="invisible"
+                android:layout_marginLeft="155dp"
+                android:layout_width="150dp"
+                android:layout_height="180dp"
+                app:srcCompat="@drawable/story_3" />
+
+            <ImageView
+                android:id="@+id/c_c"
+                android:layout_marginLeft="315dp"
+                android:layout_width="150dp"
+                android:layout_height="180dp"
+                app:srcCompat="@drawable/sequence_3" />
+            <ImageView
+                android:id="@+id/c_c_n"
+                android:visibility="invisible"
+                android:layout_marginLeft="315dp"
+                android:layout_width="150dp"
+                android:layout_height="180dp"
+                app:srcCompat="@drawable/story_4" />
+
+            <ImageView
+                android:id="@+id/d_c"
+                android:layout_marginLeft="470dp"
+                android:layout_width="150dp"
+                android:layout_height="180dp"
+                app:srcCompat="@drawable/sequence_4" />
+
+            <ImageView
+                android:id="@+id/d_c_n"
+                android:visibility="invisible"
+                android:layout_marginLeft="470dp"
+                android:layout_width="150dp"
+                android:layout_height="180dp"
+                app:srcCompat="@drawable/story_5" />
+
+        </FrameLayout>
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/drag_2"
+            android:layout_width="140dp"
+            android:layout_height="130dp"
+            app:srcCompat="@drawable/story_3" />
+
+        <ImageView
+            android:id="@+id/drag_4"
+            android:layout_marginLeft="150dp"
+            android:layout_width="140dp"
+            android:layout_height="130dp"
+            app:srcCompat="@drawable/story_5" />
+
+        <ImageView
+            android:id="@+id/drag_1"
+            android:layout_marginLeft="300dp"
+            android:layout_width="140dp"
+            android:layout_height="130dp"
+            app:srcCompat="@drawable/story_2" />
+
+        <ImageView
+            android:id="@+id/drag_3"
+            android:layout_marginLeft="450dp"
+            android:layout_width="140dp"
+            android:layout_height="130dp"
+            app:srcCompat="@drawable/story_4" />
+
+    </FrameLayout>
+
+
+    </LinearLayout>
+    </ViewFlipper>
+
+</RelativeLayout>

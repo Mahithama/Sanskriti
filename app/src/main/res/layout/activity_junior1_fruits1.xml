@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".Juniorclass.unit1.Junior1_fruits1">
+
+    <ViewFlipper
+        android:id="@+id/viewflipper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/numeral_onebg"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_marginTop="70dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:textColor="#FF5722"
+            android:layout_height="wrap_content"
+            android:text="Colours of the fruits."
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textColor="#151515"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Drag the fruits to their colours"
+            android:textSize="22sp" />
+
+        <Button
+            android:layout_marginTop="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="nextView"
+            android:text="Next"
+            tools:ignore="OnClick" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/fruit_bggg"
+        android:layout_height="match_parent">
+
+
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp">
+
+
+        <ImageView
+            android:id="@+id/ban_c"
+            android:layout_width="138dp"
+            android:layout_height="105dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ban_fruitt" />
+
+        <ImageView
+            android:id="@+id/ban_c_n"
+            android:layout_width="138dp"
+            android:layout_height="105dp"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ban_fruits" />
+
+        <ImageView
+            android:id="@+id/oran_c"
+            android:layout_width="138dp"
+            android:layout_height="105dp"
+            android:layout_marginLeft="150dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/orng_fruitt" />
+
+        <ImageView
+            android:id="@+id/oran_c_n"
+            android:layout_width="138dp"
+            android:layout_height="105dp"
+            android:layout_marginLeft="150dp"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/orange_fruits" />
+
+        <ImageView
+            android:id="@+id/apple_c"
+            android:layout_width="138dp"
+            android:layout_height="105dp"
+            android:layout_marginLeft="300dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/red_fruitt" />
+
+        <ImageView
+            android:id="@+id/apple_c_n"
+            android:layout_width="138dp"
+            android:layout_height="105dp"
+            android:layout_marginLeft="300dp"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/apple_fruits" />
+
+        <ImageView
+            android:id="@+id/pear_c"
+            android:layout_width="138dp"
+            android:layout_height="105dp"
+            android:layout_marginLeft="450dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/pear_fruit" />
+
+        <ImageView
+            android:id="@+id/pear_c_n"
+            android:layout_width="138dp"
+            android:layout_height="105dp"
+            android:layout_marginLeft="450dp"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/pear_fruits" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="594dp"
+        android:layout_height="105dp"
+       android:layout_marginTop="70dp"
+      android:layout_gravity="center_horizontal">
+
+
+        <ImageView
+            android:id="@+id/drag_pear"
+            android:layout_width="138dp"
+            android:layout_height="105dp"
+            android:layout_marginBottom="150dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/outline_pear" />
+
+        <ImageView
+            android:id="@+id/drag_ban"
+            android:layout_width="138dp"
+            android:layout_height="105dp"
+            android:layout_marginLeft="150dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/outline_banana" />
+
+        <ImageView
+            android:id="@+id/drag_apple"
+            android:layout_width="138dp"
+            android:layout_height="105dp"
+            android:layout_marginLeft="300dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/outline_apple" />
+
+        <ImageView
+            android:id="@+id/drag_oran"
+            android:layout_width="138dp"
+            android:layout_height="105dp"
+            android:layout_marginLeft="450dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/outline_orange" />
+    </FrameLayout>
+
+    </LinearLayout>
+    </ViewFlipper>
+
+</RelativeLayout>

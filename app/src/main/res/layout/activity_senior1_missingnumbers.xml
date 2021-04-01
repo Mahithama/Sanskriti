@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Unit1.Seniorkg.Senior1_missingnumbers">
+
+    <ViewFlipper
+        android:id="@+id/viewflipper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/numeral_onebg"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_marginTop="70dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:textColor="#FF5722"
+            android:layout_height="wrap_content"
+            android:text="Missing numbers."
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textColor="#151515"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Drag and drop the missing numbers to it's place. "
+            android:textSize="22sp" />
+
+        <Button
+            android:layout_marginTop="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="nextView"
+            android:text="Next"
+            tools:ignore="OnClick" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/ka"
+        android:layout_width="675dp"
+        android:layout_height="148dp"
+        >
+
+
+        <ImageView
+            android:id="@+id/ome"
+            android:layout_width="693dp"
+            android:layout_height="145dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/missingnum_one"
+            tools:layout_editor_absoluteX="20dp" />
+
+        <ImageView
+            android:id="@+id/one_c"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="50dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/dummy"
+            tools:layout_editor_absoluteX="20dp" />
+
+        <TextView
+            android:id="@+id/one_c_n"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="60dp"
+            android:fontFamily="@font/primer_print_bold"
+            android:text="   1   "
+            android:textColor="#000"
+            android:textSize="50dp"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.076"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+
+        <ImageView
+            android:id="@+id/three_c"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="50dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/dummy"
+            tools:layout_editor_absoluteX="20dp" />
+
+        <TextView
+            android:id="@+id/three_c_n"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="305dp"
+            android:layout_marginTop="60dp"
+            android:fontFamily="@font/primer_print_bold"
+            android:text="  3  "
+            android:textColor="#000"
+            android:textSize="50dp"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.076"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+
+        <ImageView
+            android:id="@+id/five_c"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:layout_marginLeft="560dp"
+            android:layout_marginTop="50dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/dummy"
+            tools:layout_editor_absoluteX="20dp" />
+
+        <TextView
+            android:id="@+id/five_c_n"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="565dp"
+            android:layout_marginTop="60dp"
+            android:fontFamily="@font/primer_print_bold"
+            android:text="  5  "
+            android:textColor="#000"
+            android:textSize="50dp"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.076"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="656dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="10dp">
+
+
+        <ImageView
+            android:id="@+id/ovme"
+            android:layout_width="match_parent"
+            android:layout_height="142dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/missingnum_two"
+            tools:layout_editor_absoluteX="20dp" />
+
+
+        <ImageView
+            android:id="@+id/six_c"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="45dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/dummy"
+            tools:layout_editor_absoluteX="20dp" />
+
+        <TextView
+            android:id="@+id/six_c_n"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/primer_print_bold"
+            android:text="  6  "
+            android:textColor="#000"
+            android:textSize="50dp"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.076"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <ImageView
+            android:id="@+id/seven_c"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:layout_marginLeft="165dp"
+            android:layout_marginTop="45dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/dummy"
+            tools:layout_editor_absoluteX="20dp" />
+
+        <TextView
+            android:id="@+id/seven_c_n"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="170dp"
+            android:layout_marginTop="55dp"
+            android:fontFamily="@font/primer_print_bold"
+            android:text="  7  "
+            android:textColor="#000"
+            android:textSize="50dp"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.076"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <ImageView
+            android:id="@+id/nine_c"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
+            android:layout_marginLeft="410dp"
+            android:layout_marginTop="45dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/dummy"
+            tools:layout_editor_absoluteX="20dp" />
+
+        <TextView
+            android:id="@+id/nine_c_n"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="420dp"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/primer_print_bold"
+            android:text="  9  "
+            android:textColor="#000"
+            android:textSize="50dp"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.076"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_gravity="bottom"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/drag_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/primer_print_bold"
+        android:text="  1  "
+        android:textColor="#000"
+        android:textSize="50dp" />
+
+    <TextView
+        android:id="@+id/drag_three"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/primer_print_bold"
+        android:text="  3  "
+        android:textColor="#000"
+        android:textSize="50dp"
+       android:layout_marginLeft="500dp" />
+
+    <TextView
+        android:id="@+id/drag_five"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/primer_print_bold"
+        android:layout_marginLeft="100dp"
+        android:text="  5  "
+        android:textColor="#000"
+        android:textSize="50dp" />
+
+    <TextView
+        android:id="@+id/drag_six"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/primer_print_bold"
+        android:text="  6  "
+        android:textColor="#000"
+        android:textSize="50dp"
+        android:layout_marginLeft="200dp" />
+
+    <TextView
+        android:id="@+id/drag_seven"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/primer_print_bold"
+        android:text="  7  "
+        android:textColor="#000"
+        android:textSize="50dp"
+        android:layout_marginLeft="300dp" />
+
+    <TextView
+        android:id="@+id/drag_nine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/primer_print_bold"
+        android:text="  9  "
+        android:textColor="#000"
+        android:textSize="50dp"
+       android:layout_marginLeft="400dp" />
+    </FrameLayout>
+    </LinearLayout>
+    </ViewFlipper>
+</RelativeLayout>

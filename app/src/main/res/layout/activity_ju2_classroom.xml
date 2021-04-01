@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Juniorclass.unit2.ju2_classroom">
+    <ViewFlipper
+        android:id="@+id/viewflipper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/numeral_onebg"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_marginTop="70dp"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Classroom things \nTap on the cards to know the names ."
+            android:textSize="30sp" />
+
+        <Button
+            android:layout_marginTop="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="nextView"
+            android:text="Next"
+            tools:ignore="OnClick" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:layout_height="match_parent">
+
+<FrameLayout
+    android:id="@+id/framea1"
+    android:layout_marginTop="30dp"
+    android:layout_centerHorizontal="true"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/bag"
+        android:layout_width="129dp"
+        android:layout_height="149dp"
+        app:srcCompat="@drawable/class_bag" />
+
+    <ImageView
+        android:id="@+id/board"
+        android:layout_marginLeft="150dp"
+        android:layout_width="129dp"
+        android:layout_height="149dp"
+        app:srcCompat="@drawable/class_board" />
+
+    <ImageView
+        android:id="@+id/book"
+        android:layout_marginLeft="300dp"
+        android:layout_width="129dp"
+        android:layout_height="149dp"
+        app:srcCompat="@drawable/class_book" />
+
+    <ImageView
+        android:id="@+id/desk"
+        android:layout_marginLeft="450dp"
+        android:layout_width="129dp"
+        android:layout_height="149dp"
+        app:srcCompat="@drawable/class_desk" />
+
+</FrameLayout>
+
+    <FrameLayout
+
+        android:layout_below="@+id/framea1"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/pencil"
+            android:layout_width="129dp"
+            android:layout_height="149dp"
+            app:srcCompat="@drawable/class_pencil" />
+
+        <ImageView
+            android:id="@+id/globe"
+            android:layout_marginLeft="150dp"
+            android:layout_width="129dp"
+            android:layout_height="149dp"
+            app:srcCompat="@drawable/class_globe" />
+
+        <ImageView
+            android:id="@+id/chair"
+            android:layout_marginLeft="300dp"
+            android:layout_width="129dp"
+            android:layout_height="149dp"
+            app:srcCompat="@drawable/class_chair" />
+
+        <ImageView
+            android:id="@+id/paper"
+            android:layout_marginLeft="450dp"
+            android:layout_width="129dp"
+            android:layout_height="149dp"
+            app:srcCompat="@drawable/class_papers" />
+    </FrameLayout>
+    </LinearLayout>
+    </ViewFlipper>
+</RelativeLayout>

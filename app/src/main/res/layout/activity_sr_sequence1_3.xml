@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Seniorkg.Unit3.Sr_sequence1_3">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/drag_chap"
+            android:layout_width="140dp"
+            android:layout_height="130dp"
+            app:srcCompat="@drawable/sequence_chap" />
+
+        <ImageView
+            android:id="@+id/drag_fire"
+            android:layout_marginLeft="150dp"
+            android:layout_width="140dp"
+            android:layout_height="130dp"
+            app:srcCompat="@drawable/sequence_fire" />
+
+        <ImageView
+            android:id="@+id/drag_roll"
+            android:layout_marginLeft="300dp"
+            android:layout_width="140dp"
+            android:layout_height="130dp"
+            app:srcCompat="@drawable/sequence_roll" />
+
+        <ImageView
+            android:id="@+id/drag_rice"
+            android:layout_marginLeft="450dp"
+            android:layout_width="140dp"
+            android:layout_height="130dp"
+            app:srcCompat="@drawable/sequence_wheat" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+      android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/rice_c"
+            android:layout_width="150dp"
+            android:layout_height="180dp"
+            app:srcCompat="@drawable/sequence_1" />
+
+        <ImageView
+            android:id="@+id/rice_c_n"
+            android:visibility="invisible"
+            android:layout_width="150dp"
+            android:layout_height="180dp"
+            app:srcCompat="@drawable/sequence_ricee" />
+
+        <ImageView
+            android:id="@+id/roll_c"
+            android:layout_marginLeft="155dp"
+            android:layout_width="150dp"
+            android:layout_height="180dp"
+            app:srcCompat="@drawable/sequence_2" />
+
+        <ImageView
+            android:id="@+id/roll_c_n"
+            android:visibility="invisible"
+            android:layout_marginLeft="155dp"
+            android:layout_width="150dp"
+            android:layout_height="180dp"
+            app:srcCompat="@drawable/sequence_rolll" />
+
+        <ImageView
+            android:id="@+id/fire_c"
+            android:layout_marginLeft="315dp"
+            android:layout_width="150dp"
+            android:layout_height="180dp"
+            app:srcCompat="@drawable/sequence_3" />
+        <ImageView
+            android:id="@+id/fire_c_n"
+            android:visibility="invisible"
+            android:layout_marginLeft="315dp"
+            android:layout_width="150dp"
+            android:layout_height="180dp"
+            app:srcCompat="@drawable/sequence_firee" />
+
+        <ImageView
+            android:id="@+id/chap_c"
+            android:layout_marginLeft="470dp"
+            android:layout_width="150dp"
+            android:layout_height="180dp"
+            app:srcCompat="@drawable/sequence_4" />
+
+        <ImageView
+            android:id="@+id/chap_c_n"
+            android:visibility="invisible"
+            android:layout_marginLeft="470dp"
+            android:layout_width="150dp"
+            android:layout_height="180dp"
+            app:srcCompat="@drawable/sequence_chapp" />
+
+    </FrameLayout>
+
+</RelativeLayout>

@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Juniorclass.unit6.Short_e_sounds">
+
+    <ViewFlipper
+        android:id="@+id/viewflipper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/numeral_onebg"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_marginTop="150dp"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="'e' sound. \n\nTap on the words."
+            android:textSize="30sp" />
+
+        <Button
+            android:layout_marginTop="200dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="nextView"
+            android:text="Next"
+            tools:ignore="OnClick" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:layout_height="match_parent">
+    <ImageView
+        android:layout_centerHorizontal="true"
+        android:id="@+id/image"
+        android:layout_width="233dp"
+        android:layout_height="212dp"
+        app:srcCompat="@drawable/jett" />
+    <FrameLayout
+        android:id="@+id/image2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/bed"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bed" />
+
+        <TextView
+            android:id="@+id/beg"
+            android:layout_marginLeft="90dp"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Beg" />
+
+        <TextView
+            android:id="@+id/hem"
+            android:layout_marginLeft="180dp"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hem" />
+
+        <TextView
+            android:id="@+id/hen"
+            android:layout_marginLeft="260dp"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hen" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/image3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/image2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/jet"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jet" />
+
+        <TextView
+            android:id="@+id/leg"
+            android:layout_marginLeft="90dp"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Leg" />
+
+        <TextView
+            android:id="@+id/web"
+            android:layout_marginLeft="180dp"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Web" />
+
+        <TextView
+            android:id="@+id/red"
+            android:layout_marginLeft="260dp"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Red" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/image4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/image3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/men"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Men" />
+
+        <TextView
+            android:id="@+id/pen"
+            android:layout_marginLeft="90dp"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pen" />
+
+        <TextView
+            android:id="@+id/ten"
+            android:layout_marginLeft="180dp"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ten" />
+
+        <TextView
+            android:id="@+id/net"
+            android:layout_marginLeft="260dp"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Net" />
+
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:id="@+id/image5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/image4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/pet"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pet" />
+
+        <TextView
+            android:id="@+id/vet"
+            android:layout_marginLeft="90dp"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vet" />
+
+        <TextView
+            android:id="@+id/wet"
+            android:layout_marginLeft="180dp"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wet" />
+
+        <TextView
+            android:id="@+id/tea"
+            android:layout_marginLeft="260dp"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tea" />
+
+    </FrameLayout>
+
+
+
+    <Button
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/button"
+        android:textSize="20dp"
+        android:background="@color/purple_200"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next" />
+    </LinearLayout>
+    </ViewFlipper>
+
+</RelativeLayout>

@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Nurseryclass.Unit3.nur_senses_3">
+
+    <ViewFlipper
+        android:id="@+id/viewflipper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/numeral_onebg"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_marginTop="70dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:textColor="#FF5722"
+            android:layout_height="wrap_content"
+            android:text="Colours."
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textColor="#151515"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Drag the colour ball to it's matching fish . "
+            android:textSize="22sp" />
+
+        <Button
+            android:layout_marginTop="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="nextView"
+            android:text="Next"
+            tools:ignore="OnClick" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/colors_bg"
+        android:layout_height="wrap_content">
+
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_gravity="left"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/fish5_c"
+            android:layout_width="176dp"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/fish_5_5" />
+
+        <ImageView
+            android:id="@+id/fish5_c_n"
+            android:layout_width="173dp"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/fish_5" />
+
+        <ImageView
+            android:id="@+id/fish4_c"
+            android:layout_width="191dp"
+            android:layout_height="135dp"
+            android:layout_marginLeft="205dp"
+            app:srcCompat="@drawable/fish_2_2" />
+
+        <ImageView
+            android:id="@+id/fish4_c_n"
+            android:layout_width="195dp"
+            android:layout_height="139dp"
+            android:layout_marginLeft="205dp"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/fish_2" />
+
+        <ImageView
+            android:id="@+id/fish1_c"
+            android:layout_width="wrap_content"
+            android:layout_height="194dp"
+            android:layout_marginLeft="400dp"
+            app:srcCompat="@drawable/fish_3_3" />
+
+        <ImageView
+            android:id="@+id/fish1_c_n"
+            android:layout_width="wrap_content"
+            android:layout_height="194dp"
+            android:layout_marginLeft="400dp"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/fish_3" />
+
+        <ImageView
+            android:id="@+id/fish3_c"
+            android:layout_width="171dp"
+            android:layout_height="158dp"
+            android:layout_marginTop="180dp"
+            app:srcCompat="@drawable/fish_4_4" />
+
+        <ImageView
+            android:id="@+id/fish3_c_n"
+            android:layout_width="167dp"
+            android:layout_height="155dp"
+            android:layout_marginTop="180dp"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/fish_4" />
+
+        <ImageView
+            android:id="@+id/fish2_c"
+            android:layout_width="162dp"
+            android:layout_height="127dp"
+            android:layout_marginLeft="380dp"
+            android:layout_marginTop="210dp"
+            app:srcCompat="@drawable/fish_1_1" />
+
+        <ImageView
+            android:id="@+id/fish2_c_n"
+            android:layout_width="161dp"
+            android:layout_height="125dp"
+            android:layout_marginLeft="380dp"
+            android:layout_marginTop="210dp"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/fish_1" />
+
+        <ImageView
+            android:id="@+id/fish6_c"
+            android:layout_width="189dp"
+            android:layout_height="144dp"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="200dp"
+            app:srcCompat="@drawable/fish_6_6" />
+
+        <ImageView
+            android:id="@+id/fish6_c_n"
+            android:layout_width="185dp"
+            android:layout_height="144dp"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="200dp"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/fish_6" />
+    </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+           android:layout_marginLeft="20dp"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/drag_ball1"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                app:srcCompat="@drawable/ball1" />
+
+            <ImageView
+                android:id="@+id/drag_ball2"
+                android:layout_marginTop="60dp"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                app:srcCompat="@drawable/ball2" />
+
+            <ImageView
+                android:id="@+id/drag_ball3"
+                android:layout_marginTop="125dp"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                app:srcCompat="@drawable/ball3" />
+
+            <ImageView
+                android:id="@+id/drag_ball4"
+                android:layout_marginTop="185dp"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                app:srcCompat="@drawable/ball4" />
+
+            <ImageView
+                android:id="@+id/drag_ball5"
+                android:layout_marginTop="250dp"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                app:srcCompat="@drawable/ball5" />
+
+            <ImageView
+                android:id="@+id/drag_ball6"
+                android:layout_marginTop="315dp"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                app:srcCompat="@drawable/ball6" />
+
+        </FrameLayout>
+
+    </LinearLayout>
+    </ViewFlipper>
+
+
+</RelativeLayout>

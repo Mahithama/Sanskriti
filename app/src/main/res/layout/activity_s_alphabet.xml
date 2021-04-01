@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Nurseryclass.Unit2.S_alphabet">
+
+    <ViewFlipper
+        android:id="@+id/viewflipper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@drawable/numeral_onebg"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_marginTop="70dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:textColor="#FF5722"
+                android:layout_height="wrap_content"
+                android:text="Alphabet 'S'."
+                android:textSize="30sp" />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:textColor="#151515"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tap on all the ' S ' letter words. "
+                android:textSize="22sp" />
+
+            <Button
+                android:layout_marginTop="100dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="nextView"
+                android:text="Next"
+                tools:ignore="OnClick" />
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/sbg"
+        android:layout_height="match_parent">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/star"
+            android:layout_width="138dp"
+            android:layout_height="123dp"
+            android:layout_marginLeft="220dp"
+            app:srcCompat="@drawable/star" />
+
+
+        <ImageView
+            android:id="@+id/sun"
+            android:layout_width="146dp"
+            android:layout_height="141dp"
+            android:layout_marginLeft="340dp"
+            android:layout_marginTop="200dp"
+            app:srcCompat="@drawable/sunshine" />
+
+        <ImageView
+            android:id="@+id/tomato"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="150dp"
+            app:srcCompat="@drawable/tomato" />
+
+        <ImageView
+            android:id="@+id/sheep"
+            android:layout_width="210dp"
+            android:layout_height="147dp"
+            android:layout_marginLeft="390dp"
+            app:srcCompat="@drawable/sheep" />
+
+        <ImageView
+            android:id="@+id/snow"
+            android:layout_width="149dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="130dp"
+            app:srcCompat="@drawable/snow" />
+        <ImageView
+            android:id="@+id/berry"
+            android:layout_width="wrap_content"
+            android:layout_height="125dp"
+            android:layout_marginLeft="500dp"
+            android:layout_marginTop="200dp"
+            app:srcCompat="@drawable/berry" />
+
+    </FrameLayout>
+    </LinearLayout>
+    </ViewFlipper>
+</RelativeLayout>

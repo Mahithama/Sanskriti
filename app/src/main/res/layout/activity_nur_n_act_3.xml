@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Nurseryclass.Unit3.nur_n_act_3">
+
+    <ViewFlipper
+        android:id="@+id/viewflipper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@drawable/numeral_onebg"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_marginTop="70dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:textColor="#FF5722"
+                android:layout_height="wrap_content"
+                android:text="Alphabet 'N'."
+                android:textSize="30sp" />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:textColor="#151515"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tap on the pictures to know their names. "
+                android:textSize="22sp" />
+
+            <Button
+                android:layout_marginTop="100dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="nextView"
+                android:text="Next"
+                tools:ignore="OnClick" />
+        </LinearLayout>
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:layout_height="match_parent">
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:id="@+id/frame1"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="605dp"
+            android:layout_height="160dp"
+            app:srcCompat="@drawable/n_bg" />
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/frame1"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/needle"
+            android:layout_marginLeft="165dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/n_needle" />
+
+        <ImageView
+            android:id="@+id/nest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/n_nest" />
+
+        <ImageView
+            android:id="@+id/nut"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="330dp"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/n_nut" />
+
+        <ImageView
+            android:id="@+id/net"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="495dp"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/n_net" />
+
+    </FrameLayout>
+    </LinearLayout>
+    </ViewFlipper>
+
+
+
+
+
+
+
+</RelativeLayout>

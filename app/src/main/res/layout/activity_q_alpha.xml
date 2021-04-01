@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Nurseryclass.Unit6.Q_alpha">
+    <ViewFlipper
+        android:id="@+id/viewflipper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@drawable/numeral_onebg"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_marginTop="70dp"
+                android:textColor="@color/black"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="                  Alphabet words \nTap on the pictures to know the names"
+                android:textSize="30sp" />
+
+            <Button
+                android:layout_marginTop="100dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="nextView"
+                android:text="Next"
+                tools:ignore="OnClick" />
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/q_bg"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:layout_marginTop="150dp"
+            android:id="@+id/qtip"
+            android:layout_width="170dp"
+            android:layout_height="153dp"
+            app:srcCompat="@drawable/q_tip" />
+
+        <ImageView
+            android:id="@+id/queen"
+            android:layout_marginLeft="10dp"
+            android:layout_width="174dp"
+            android:layout_height="140dp"
+            app:srcCompat="@drawable/q_queen" />
+
+        <ImageView
+            android:id="@+id/quince"
+            android:layout_width="153dp"
+            android:layout_height="165dp"
+            android:layout_marginLeft="-140dp"
+            android:layout_marginTop="160dp"
+            app:srcCompat="@drawable/q_quince" />
+
+        <ImageView
+            android:id="@+id/quill"
+            android:layout_width="163dp"
+            android:layout_height="140dp"
+            android:layout_marginLeft="50dp"
+            app:srcCompat="@drawable/q_quill" />
+
+        <ImageView
+            android:id="@+id/question"
+            android:layout_width="212dp"
+            android:layout_marginLeft="-160dp"
+            android:layout_marginTop="160dp"
+            android:layout_height="172dp"
+            app:srcCompat="@drawable/q_queation" />
+
+    </LinearLayout>
+
+</ViewFlipper>
+
+
+
+    </RelativeLayout>

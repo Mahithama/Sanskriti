@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/creambg"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/sanskriti_logo" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textt"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+<EditText
+    android:id="@+id/sans_user"
+    android:layout_width="match_parent"
+    android:hint="@string/user"
+    android:inputType="text"
+    style="@style/Logindetails"
+    android:layout_height="60dp"/>
+
+        <EditText
+            android:id="@+id/sans_pwd"
+          android:layout_marginTop="80dp"
+            android:layout_width="match_parent"
+            android:hint="@string/userpwd"
+            android:inputType="text"
+            style="@style/Logindetails"
+            android:layout_height="60dp"/>
+
+
+
+    </FrameLayout>
+    <FrameLayout
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/textt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/sans_go"
+        style="@style/Logindetails"
+        android:hint="@string/submit"
+        android:layout_width="162dp"
+        android:layout_height="62dp" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="173dp"
+        android:layout_height="181dp"
+        app:srcCompat="@drawable/sans_login" />
+
+    </FrameLayout>
+
+
+</RelativeLayout>

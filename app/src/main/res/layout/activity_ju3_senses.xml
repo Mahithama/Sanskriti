@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Juniorclass.unit3.ju3_senses">
+
+    <ViewFlipper
+        android:id="@+id/viewflipper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/numeral_onebg"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_marginTop="70dp"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Senses. \nTap on the pictures related to the sense organ."
+            android:textSize="30sp" />
+
+        <Button
+            android:layout_marginTop="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="nextView"
+            android:text="Next"
+            tools:ignore="OnClick" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/framea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imageView26"
+        android:layout_width="108dp"
+        android:layout_height="101dp"
+        app:srcCompat="@drawable/senses_1" />
+
+        <ImageView
+            android:id="@+id/na"
+            android:layout_marginLeft="120dp"
+            android:layout_width="108dp"
+            android:layout_height="101dp"
+            app:srcCompat="@drawable/senses_1_1" />
+
+        <ImageView
+            android:id="@+id/nb"
+            android:layout_marginLeft="240dp"
+            android:layout_width="108dp"
+            android:layout_height="101dp"
+            app:srcCompat="@drawable/senses_1_2" />
+
+        <ImageView
+            android:id="@+id/nc"
+            android:layout_marginLeft="360dp"
+            android:layout_width="108dp"
+            android:layout_height="101dp"
+            app:srcCompat="@drawable/senses_1_3" />
+
+        <ImageView
+            android:id="@+id/nd"
+            android:layout_marginLeft="480dp"
+            android:layout_width="108dp"
+            android:layout_height="101dp"
+            app:srcCompat="@drawable/senses_1_4" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:id="@+id/frameb"
+        android:layout_below="@+id/framea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/ds"
+            android:layout_width="108dp"
+            android:layout_height="101dp"
+            app:srcCompat="@drawable/senses_2" />
+
+        <ImageView
+            android:id="@+id/ea"
+            android:layout_marginLeft="120dp"
+            android:layout_width="108dp"
+            android:layout_height="101dp"
+            app:srcCompat="@drawable/senses_1_5" />
+
+        <ImageView
+            android:id="@+id/eb"
+            android:layout_marginLeft="240dp"
+            android:layout_width="108dp"
+            android:layout_height="101dp"
+            app:srcCompat="@drawable/senses_1_6" />
+
+        <ImageView
+            android:id="@+id/ec"
+            android:layout_marginLeft="360dp"
+            android:layout_width="108dp"
+            android:layout_height="101dp"
+            app:srcCompat="@drawable/senses_1_3" />
+
+        <ImageView
+            android:id="@+id/ed"
+            android:layout_marginLeft="480dp"
+            android:layout_width="108dp"
+            android:layout_height="101dp"
+            app:srcCompat="@drawable/senses_1_4" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:id="@+id/framec"
+        android:layout_below="@+id/frameb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/dss"
+            android:layout_width="108dp"
+            android:layout_height="101dp"
+            app:srcCompat="@drawable/senses_4" />
+
+        <ImageView
+            android:id="@+id/ma"
+            android:layout_marginLeft="120dp"
+            android:layout_width="108dp"
+            android:layout_height="101dp"
+            app:srcCompat="@drawable/senses_1_1" />
+
+        <ImageView
+            android:id="@+id/mb"
+            android:layout_marginLeft="240dp"
+            android:layout_width="108dp"
+            android:layout_height="101dp"
+            app:srcCompat="@drawable/senses_1_6" />
+
+        <ImageView
+            android:id="@+id/mc"
+            android:layout_marginLeft="360dp"
+            android:layout_width="108dp"
+            android:layout_height="101dp"
+            app:srcCompat="@drawable/senses_1_2" />
+
+        <ImageView
+            android:id="@+id/md"
+            android:layout_marginLeft="480dp"
+            android:layout_width="108dp"
+            android:layout_height="101dp"
+            app:srcCompat="@drawable/senses_1_4" />
+    </FrameLayout>
+    </LinearLayout>
+    </ViewFlipper>
+</RelativeLayout>

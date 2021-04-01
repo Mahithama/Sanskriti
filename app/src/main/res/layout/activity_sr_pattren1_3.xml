@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/pattren1_bg"
+    android:layout_height="match_parent"
+    tools:context=".Seniorkg.Unit3.Sr_pattren1_3">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:id="@+id/drag_p2_2"
+            android:layout_width="60dp"
+            android:layout_height="65dp"
+            app:srcCompat="@drawable/pattren1_circle" />
+
+        <ImageView
+            android:id="@+id/drag_p3"
+            android:layout_width="67dp"
+            android:layout_height="65dp"
+            android:layout_marginLeft="120dp"
+            app:srcCompat="@drawable/pattren1_pentagon" />
+
+        <ImageView
+            android:id="@+id/drag_p2"
+            android:layout_width="60dp"
+            android:layout_height="65dp"
+            android:layout_marginLeft="240dp"
+            app:srcCompat="@drawable/pattren1_square" />
+
+        <ImageView
+            android:id="@+id/drag_p1"
+            android:layout_width="60dp"
+            android:layout_height="65dp"
+            android:layout_marginLeft="360dp"
+            app:srcCompat="@drawable/pattren1_star" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/p1"
+            android:layout_width="588dp"
+            android:layout_height="79dp"
+            app:srcCompat="@drawable/pattren1_1" />
+
+        <ImageView
+            android:id="@+id/p1_c"
+            android:layout_width="88dp"
+            android:layout_height="62dp"
+            android:layout_marginLeft="400dp"
+            app:srcCompat="@drawable/dummy" />
+        <ImageView
+            android:id="@+id/p1_c_n"
+            android:visibility="invisible"
+            android:layout_width="88dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="400dp"
+            app:srcCompat="@drawable/pattren1_star" />
+
+        <ImageView
+            android:id="@+id/p2"
+            android:layout_width="636dp"
+            android:layout_height="91dp"
+            android:layout_marginTop="92dp"
+            app:srcCompat="@drawable/pattren1_2" />
+
+        <ImageView
+            android:id="@+id/p2_c"
+            android:layout_width="88dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="265dp"
+            android:layout_marginTop="95dp"
+            app:srcCompat="@drawable/dummy" />
+        <ImageView
+            android:id="@+id/p2_c_n"
+            android:visibility="invisible"
+            android:layout_width="88dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="265dp"
+            android:layout_marginTop="95dp"
+            app:srcCompat="@drawable/pattren1_square" />
+        <ImageView
+            android:id="@+id/p2_2_c"
+            android:layout_width="88dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="550dp"
+            android:layout_marginTop="95dp"
+            app:srcCompat="@drawable/dummy" />
+        <ImageView
+            android:id="@+id/p2_2_c_n"
+            android:visibility="invisible"
+            android:layout_width="88dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="550dp"
+            android:layout_marginTop="95dp"
+            app:srcCompat="@drawable/pattren1_circle" />
+
+        <ImageView
+            android:id="@+id/p3"
+            android:layout_width="629dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="180dp"
+            app:srcCompat="@drawable/pattren1_3" />
+
+        <ImageView
+            android:id="@+id/p3_c"
+            android:layout_width="88dp"
+            android:layout_height="62dp"
+            android:layout_marginLeft="490dp"
+            android:layout_marginTop="180dp"
+            app:srcCompat="@drawable/dummy" />
+
+        <ImageView
+            android:id="@+id/p3_c_n"
+            android:layout_width="88dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="490dp"
+            android:layout_marginTop="180dp"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/pattren1_pentagon" />
+
+    </FrameLayout>
+
+
+
+
+
+</RelativeLayout>

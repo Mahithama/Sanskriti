@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/animalhomes_coverpage"
+    tools:context=".Juniorclass.unit1.Junior1_animalhouse_cover">
+    <TextView
+        android:id="@+id/aa"
+        android:layout_centerHorizontal="true"
+       android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/primer_print_bold"
+        android:gravity="center_horizontal"
+        android:text="Animal Homes."
+        android:textAlignment="center"
+        android:textColor="#FFEB3B"
+        android:textSize="45dp"
+         />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/aa"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/primer_print_bold"
+        android:gravity="center_horizontal"
+        android:text="Drag the animals and drop them in their homes."
+        android:textAlignment="center"
+        android:textColor="#171716"
+        android:textSize="25dp" />
+
+    <ImageButton
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/start_animals"
+        android:layout_width="122dp"
+        android:layout_height="48dp"
+        android:background="@drawable/start_but" />
+</RelativeLayout>

@@ -1,0 +1,652 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sanskriti_2020_all">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Sanskriti_2020_all">
+        <activity android:name=".Seniorkg.Unit4.Forest_book"></activity>
+        <activity
+
+            android:name=".Seniorkg.Unit3.Home_book"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Seniorkg.Unit7.Sn7_numeracy"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Seniorkg.Unit7.Sn7_home"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Seniorkg.Unit7.Skip5"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Seniorkg.Unit7.Skip2"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Seniorkg.Unit7.Subtraction"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Seniorkg.Unit7.Addition"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Seniorkg.Unit6.Blanks2_cover"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Seniorkg.Unit6.Sn6_literacy"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Seniorkg.Unit3.Sr_blendss_cover_3"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Seniorkg.Unit3.Sr_bl_3"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Seniorkg.Unit3.Sr_pattren1_3"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Seniorkg.Unit3.Sr_sequence_cover_3"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Seniorkg.Unit3.Sr_pattren_cover_3"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Seniorkg.Unit3.Senior_blends_cover_3"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Seniorkg.Unit3.Sr_pattren2_3"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Seniorkg.Unit3.sr_blends_3"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Seniorkg.Unit3.sr_sequence2_3"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Seniorkg.Unit3.Sr_sequence1_3"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Seniorkg.Unit3.Sr_br_3"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Seniorkg.Unit6.Blanks1_cover"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Seniorkg.Unit6.Sn6_home"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Seniorkg.Unit5.sentence_cover"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Seniorkg.Unit5.Sn5_literacy"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Seniorkg.Unit5.Sn5_home"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Seniorkg.Unit5.Sentence_words"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Seniorkg.Unit4.Sn4_home"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Seniorkg.Unit4.Sn4_literacy"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Seniorkg.Unit4.St_crossword_cover"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Seniorkg.Unit4.St_crosswords"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Seniorkg.Unit4.places_cover"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Seniorkg.Unit4.Place_names"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Seniorkg.Unit3.Sn3_theme_activities"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Seniorkg.Unit3.Sn3_themes"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Seniorkg.Unit3.Sr3_br_cover"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Seniorkg.Unit3.Sn3_literacy"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Seniorkg.Unit3.Sn3_home"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Seniorkg.Unit2.Sn2_theme_activities" />
+        <activity
+            android:name=".Seniorkg.Unit2.Sn2_themes"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Seniorkg.Unitscreens_senior"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Seniorkg.Unit2.unit2_home"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Seniorkg.Unit2.Birthday"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Juniorclass.Unitscreen_junior"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Juniorclass.unit4.ju4_literacy"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Juniorclass.unit4.unit4_home"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Juniorclass.unit4.words1"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Juniorclass.unit7.Number_cover"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Juniorclass.unit7.ju7_numeracy"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Juniorclass.unit7.ju7_home"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Juniorclass.unit6.Short_i_sounds"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Juniorclass.unit6.ju6_literacy"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Juniorclass.unit6.ju6_home"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Juniorclass.unit5.U_cover"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Juniorclass.unit5.Missing_cover"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Juniorclass.unit5.ju5_literacy"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Juniorclass.unit5.Pattren_cover"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Juniorclass.unit5.Lighter_cover"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Juniorclass.unit5.Heavier_cover"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Juniorclass.unit5.Ju5_theme_activities"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Juniorclass.unit5.ju5_themes"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Juniorclass.unit5.ju5_home"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Juniorclass.unit3.Ju3_theme_activities"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Juniorclass.unit3.ju3_themes"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Juniorclass.unit3.ju3_home"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Juniorclass.unit2.Ju2_theme_activities"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Juniorclass.unit2.ju2_themes"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Juniorclass.unit2.ju2_home"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Juniorclass.unit2.ju2_classroom"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Juniorclass.unit3.ju3_senses"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Juniorclass.unit3.unit3_home"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Juniorclass.unit3.unit3_numeracy"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Juniorclass.unit3.junior_count2_3"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Juniorclass.unit3.junior_count_3"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Juniorclass.unit7.Number_words"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Juniorclass.unit7.After_activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Juniorclass.unit7.Before_numbers"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Juniorclass.unit7.Missing_numbers"
+            android:screenOrientation="landscape" />
+        <activity android:name=".Nurseryclass.Unit7.Veg_cover" />
+        <activity android:name=".Nurseryclass.Unit7.Fruit_cover" />
+        <activity
+            android:name=".Nurseryclass.Unit6.Animal_cover"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Nurseryclass.Unit6.nur6_themes_activities_home"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Nurseryclass.Unit5.Transport_cover"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Nurseryclass.Unit5.Shadow_cover"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Nurseryclass.Unit7.Veg_slices"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Nurseryclass.Unit7.nur7_themes_activities_home"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Nurseryclass.Unit7.nur7_themes"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Nurseryclass.Unit7.nur7_literacy"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Nurseryclass.Unit7.nur7_home"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Nurseryclass.Unit5.nur5_themes_activities_home"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Nurseryclass.Unit5.nur5_themes"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Nurseryclass.Unit5.nur5_literacy"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Nurseryclass.Unit5.nur5_home"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Nurseryclass.Unit4.nur4_numeracy"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Nurseryclass.Unit4.nur4_home"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Nurseryclass.Unit2.nur2_literacy"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Nurseryclass.Unit2.nur2_themes_activities"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Nurseryclass.Unit2.nur2_themes"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Nurseryclass.Unit2.nur2_home"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Nurseryclass.Unit2.Shapes1"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Nurseryclass.Unit2.A_alphabet"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Nurseryclass.Unit2.T_alphabet"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Nurseryclass.Unit2.S_alphabet"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Nurseryclass.Unit4.Nur_count"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Nurseryclass.Unit4.nur4_literacy"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Nurseryclass.Unit4.Nur_r_4"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Nurseryclass.Unit4.Nur_m_4"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Nurseryclass.Unit4.Nur_h_4"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Nurseryclass.Unit4.Nur_d_4"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Nurseryclass.Unit3.nur3_home"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Nurseryclass.Unit3.nur3_themes_activities_home"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Nurseryclass.Unit3.nur3_themes_home"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Nurseryclass.Unit3.nur3_literacy_home"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Nurseryclass.Unit3.nur_cylinder_3"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Nurseryclass.Unit3.nur_rectangle_3"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Nurseryclass.Unit3.nur_senses_3"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Nurseryclass.Unit3.nur_triangle_3"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Nurseryclass.Unit3.nur_n_act_3"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Nurseryclass.Unit3.nur_c_act_3"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Nurseryclass.Unit3.nur_k_act_3"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Nurseryclass.Unit7.Fruit_slices"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Nurseryclass.Unit7.Y_alphabet"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Nurseryclass.Unit7.X_alphabet"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Nurseryclass.Unit7.V_alphabet"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Nurseryclass.Unitscreens_nursery"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Nurseryclass.Unit6.Animals"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Nurseryclass.Unit6.Unit6_nursery_themes_home"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Nurseryclass.Unit6.Unit6_nursery_literacy_home"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Nurseryclass.Unit6.Unit6_nursery_numeracy_home"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Nurseryclass.Unit6.Unit6home"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Seniorkg.Unit6.Fill_inthe_blanks2"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Seniorkg.Unit6.Fill_inthe_blanks"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Nurseryclass.Unit6.Fruits"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Nurseryclass.Unit6.Veggiecover"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Juniorclass.unit6.I_will"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Juniorclass.unit6.Short_o_sounds"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Juniorclass.unit6.Short_e_sounds"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Juniorclass.unit6.Short_a_sounds"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Nurseryclass.Unit6.Count_numbers1"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Nurseryclass.Unit6.Count_numbers"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Nurseryclass.Unit6.Animals1"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Nurseryclass.Unit6.Veggies"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Nurseryclass.Unit6.W_alphabet"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Nurseryclass.Unit6.Z_alphabet"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Nurseryclass.Unit6.Q_alpha"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Nurseryclass.Unit6.U_alphabet"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Nurseryclass.Unit6.J_alphabet"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Seniorkg.Unit1.Senior1_missingnumbers2"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Seniorkg.Unit1.Senior1_words2"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Seniorkg.Unit1.Senior1_words1"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Seniorkg.Unit1.Senior1_senses_action_two"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Seniorkg.Unit1.Senior1_senses_action"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Seniorkg.Unit1.Senior1_missingletter2"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Seniorkg.Unit1.Senior1_missingletter"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Seniorkg.Unit1.Senior_literacy1n_home"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Seniorkg.Unit1.Senior1_Quantity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Seniorkg.Unit1.Senior1_missingnumbers"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Seniorkg.Unit1.Senior_numeracy1n_home"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Seniorkg.Unit1.Senior1_themes_home"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Juniorclass.unit1.Junior_poem"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Juniorclass.unit1.Junior_school"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Juniorclass.unit1.Junior_months"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Juniorclass.unit1.Junior_days_ina_week"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Juniorclass.unit1.Junior_stories_home"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Juniorclass.unit1.Junior1_themes_Home"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Juniorclass.unit1.Junior1_senses"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Juniorclass.unit1.Junior1_fruits2"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Juniorclass.unit1.Junior1_fruits1"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Juniorclass.unit1.Junior1_classroomrules4"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Juniorclass.unit1.Junior1_classroomrules3"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Juniorclass.unit1.Junior1_classroomrules2"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Juniorclass.unit1.Junior1_classroomrules1"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Juniorclass.unit1.Junior1__emotions"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Juniorclass.unit1.Junior1_animalhouse_cover"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Juniorclass.unit1.Junior1_animalhouse"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Juniorclass.unit1.Junior1_beginingsounds"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Juniorclass.unit1.Junior1_magicwords2"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Juniorclass.unit1.Junior1_magicwords"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Juniorclass.unit1.Junior_numeracy1n_home"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Juniorclass.unit1.Junior_literacy1n_home"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Juniorclass.unit1.Junior_themes1n_home"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Nurseryclass.Unit1.Nursery1_story_ana"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Nurseryclass.Unit1.Nursery1_story_school"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Nurseryclass.Unit1.Nursery_Spot_cover"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Nurseryclass.Unit1.Nursery_Shapes"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Nurseryclass.Unit1.N_stories_home"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Nurseryclass.Unit1.Nursery_activitiess_home"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Nurseryclass.Unit1.Nursery1_alphabets2"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Nurseryclass.Unit1.Nursery1_alphabets1"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Nurseryclass.Unit1.Nursery1_numeral1_2_2"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Nurseryclass.Unit1.Nursery1_numeral1_2"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Nurseryclass.Unit1.Nursery1_Quantity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Nurseryclass.Unit1.Nursery1__route_onetoten"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Nurseryclass.Unit1.Nursery_numeracy1n_home"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Nurseryclass.Unit1.Nursery_literacy1n_home"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Nurseryclass.Unit1.Nursery_themes1n_home"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Nurseryclass.Unit1.Nursery_themes_home"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Juniorclass.unit5.Pattren_tap"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Seniorkg.Unit5.Sequence_cookie"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Juniorclass.unit5.u_sound"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Juniorclass.unit5.Heavier_weights"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Juniorclass.unit5.Lighter_weight"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Juniorclass.unit5.Missing_letters"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Nurseryclass.Unit5.L_alphabet"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Nurseryclass.Unit5.O_alphabet"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Nurseryclass.Unit5.G_alphabet"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Nurseryclass.Unit5.Shadow_match"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Nurseryclass.Unit5.Transport"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Nurseryclass.Unit5.B_alphabet"
+            android:screenOrientation="landscape" />
+        <activity android:name=".Splashscreen" />
+        <activity android:name=".Seniorkg.Unit1.Seniorkg_Home" />
+        <activity android:name=".Juniorclass.unit1.Juniorkg_Home" />
+        <activity
+            android:name=".Juniorclass.unit4.Parts_ofhouse_4j"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

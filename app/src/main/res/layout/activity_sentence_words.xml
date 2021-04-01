@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Seniorkg.Unit5.Sentence_words">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/sans_nav" />
+
+    <FrameLayout
+        android:layout_marginLeft="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_above="@id/footer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/earth_c"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="*  I love the __________ ." />
+
+        <TextView
+            android:id="@+id/earth_c_n"
+            android:visibility="invisible"
+            android:layout_marginLeft="150dp"
+            android:textColor="@color/purple_700"
+            android:textSize="25sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" earth " />
+
+
+        <TextView
+            android:layout_marginTop="60dp"
+            android:id="@+id/flowers_c"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="*  I love beautiful __________ ." />
+
+        <TextView
+            android:layout_marginTop="60dp"
+            android:visibility="invisible"
+            android:textColor="@color/purple_700"
+            android:layout_marginLeft="210dp"
+            android:id="@+id/flowers_c_n"
+            android:textSize="25sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="flowers" />
+
+        <TextView
+            android:layout_marginTop="120dp"
+            android:id="@+id/high_c"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="*  I love __________ mountains." />
+
+        <TextView
+            android:layout_marginTop="120dp"
+            android:visibility="invisible"
+            android:layout_marginLeft="220dp"
+            android:id="@+id/high_c_n"
+            android:textColor="@color/purple_700"
+            android:textSize="25sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="high" />
+
+
+        <TextView
+            android:layout_marginTop="180dp"
+            android:id="@+id/ocean_c"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="*  I love big  __________." />
+
+        <TextView
+            android:layout_marginTop="180dp"
+            android:visibility="invisible"
+            android:layout_marginLeft="150dp"
+            android:id="@+id/ocean_c_n"
+            android:textColor="@color/purple_700"
+            android:textSize="25sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ocean" />
+
+        <TextView
+            android:layout_marginTop="240dp"
+            android:id="@+id/red_c"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="*  The box is  __________ ." />
+
+        <TextView
+            android:layout_marginTop="240dp"
+            android:visibility="invisible"
+            android:id="@+id/red_c_n"
+            android:layout_marginLeft="170dp"
+            android:textColor="@color/purple_700"
+            android:textSize="25sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  red  " />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/drag_ocean"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" ocean "
+            android:background="@color/creambg"
+            android:textSize="25sp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/drag_red"
+            android:layout_marginLeft="120dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" red "
+            android:background="@color/creambg"
+            android:textSize="25sp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/drag_earth"
+            android:layout_marginLeft="200dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" earth "
+            android:background="@color/creambg"
+            android:textSize="25sp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/drag_flowers"
+            android:layout_marginLeft="300dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" flowers "
+            android:background="@color/creambg"
+            android:textSize="25sp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/drag_high"
+            android:layout_marginLeft="430dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" high "
+            android:background="@color/creambg"
+            android:textSize="25sp"
+            android:textColor="@color/black"/>
+
+
+
+    </FrameLayout>
+
+
+
+</RelativeLayout>

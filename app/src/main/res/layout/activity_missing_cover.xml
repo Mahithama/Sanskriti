@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/numeral_onebg"
+    tools:context=".Juniorclass.unit5.Missing_cover">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="28dp"
+        android:text="Missing letters \nDrag the words to the correct missing words"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+
+    <ImageButton
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/start_animals"
+        android:layout_width="122dp"
+        android:layout_height="48dp"
+        android:background="@drawable/start_but"
+        android:layout_alignParentRight="true" />
+</RelativeLayout>

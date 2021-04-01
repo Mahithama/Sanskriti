@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Seniorkg.Unit4.Place_names">
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="574dp"
+            android:layout_height="275dp"
+            app:srcCompat="@drawable/road_bg" />
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/drag_school"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="School"
+            android:textSize="20dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/drag_pet"
+            android:layout_marginLeft="80dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pet shop"
+            android:textSize="20dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/drag_super"
+            android:layout_marginLeft="180dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Super market"
+            android:textSize="20dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/drag_hospital"
+            android:layout_marginLeft="320dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hospital"
+            android:textSize="20dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/drag_bakery"
+            android:layout_marginLeft="420dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bakery"
+            android:textSize="20dp"
+            android:textColor="@color/black"/>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/school_c"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="110dp"
+            android:layout_width="150dp"
+            android:layout_height="20dp"
+            app:srcCompat="@drawable/count_ani_dummy" />
+        <TextView
+            android:id="@+id/school_c_n"
+            android:visibility="invisible"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="107dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="School"
+            android:textSize="20dp"
+            android:textColor="#020202"/>
+
+        <ImageView
+            android:id="@+id/super_c"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="235dp"
+            android:layout_width="150dp"
+            android:layout_height="20dp"
+            app:srcCompat="@drawable/count_ani_dummy" />
+
+        <TextView
+            android:id="@+id/super_c_n"
+            android:visibility="invisible"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="230dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Super market"
+            android:textSize="20dp"
+            android:textColor="#070707"/>
+
+        <ImageView
+            android:id="@+id/hospital_c"
+            android:layout_marginLeft="240dp"
+            android:layout_marginTop="235dp"
+            android:layout_width="150dp"
+            android:layout_height="20dp"
+            app:srcCompat="@drawable/count_ani_dummy" />
+
+        <TextView
+            android:id="@+id/hospital_c_n"
+            android:visibility="invisible"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="230dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hospital"
+            android:textSize="20dp"
+            android:textColor="#070707"/>
+
+        <ImageView
+            android:id="@+id/bakery_c"
+            android:layout_marginLeft="440dp"
+            android:layout_marginTop="110dp"
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            app:srcCompat="@drawable/count_ani_dummy" />
+        <TextView
+            android:id="@+id/bakery_c_n"
+            android:visibility="invisible"
+            android:layout_marginLeft="460dp"
+            android:layout_marginTop="102dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bakery"
+            android:textSize="20dp"
+            android:textColor="#020202"/>
+
+        <ImageView
+            android:id="@+id/pet_c"
+            android:layout_marginLeft="460dp"
+            android:layout_marginTop="235dp"
+            android:layout_width="100dp"
+            android:layout_height="20dp"
+            app:srcCompat="@drawable/count_ani_dummy" />
+
+        <TextView
+            android:id="@+id/pet_c_n"
+            android:visibility="invisible"
+            android:layout_marginLeft="460dp"
+            android:layout_marginTop="230dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pet shop"
+            android:textSize="20dp"
+            android:textColor="#070707"/>
+
+
+    </FrameLayout>
+
+</RelativeLayout>
